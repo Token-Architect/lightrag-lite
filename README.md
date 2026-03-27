@@ -10,9 +10,9 @@
 
 ## 示例视频
 
-[![示例视频封面](./demo/video-cover.png)](./demo/%E7%A4%BA%E4%BE%8B.mp4?raw=1)
+[![示例视频封面](./demo/video-cover.png)](./demo/sample.mp4)
 
-- [点击下载示例视频](./demo/%E7%A4%BA%E4%BE%8B.mp4?raw=1)
+- [点击下载示例视频](./demo/sample.mp4)
 
 ## 二开特性
 
@@ -117,3 +117,4 @@ docker compose up -d kg
 - `.env`、`lightrag_webui/.env`
 - `inputs/`、`rag_storage/`
 - `*.log`、缓存与构建产物
+
