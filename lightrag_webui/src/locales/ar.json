@@ -1,0 +1,465 @@
+{
+    "settings":  {
+                     "language":  "丕賱賱睾丞",
+                     "theme":  "丕賱爻賲丞",
+                     "light":  "賮丕鬲丨",
+                     "dark":  "丿丕賰賳",
+                     "system":  "丕賱賳馗丕賲"
+                 },
+    "header":  {
+                   "documents":  "丕賱賲爻鬲賳丿丕鬲",
+                   "knowledgeGraph":  "卮亘賰丞 丕賱賲毓乇賮丞",
+                   "retrieval":  "丕賱丕爻鬲乇噩丕毓",
+                   "api":  "賵丕噩賴丞 亘乇賲噩丞 丕賱鬲胤亘賷賯丕鬲",
+                   "projectRepository":  "賲爻鬲賵丿毓 丕賱賲卮乇賵毓",
+                   "logout":  "鬲爻噩賷賱 丕賱禺乇賵噩",
+                   "frontendNeedsRebuild":  "丕賱賵丕噩賴丞 丕賱兀賲丕賲賷丞 鬲丨鬲丕噩 廿賱賶 廿毓丕丿丞 丕賱亘賳丕亍",
+                   "themeToggle":  {
+                                       "switchToLight":  "丕賱鬲丨賵賷賱 廿賱賶 丕賱爻賲丞 丕賱賮丕鬲丨丞",
+                                       "switchToDark":  "丕賱鬲丨賵賷賱 廿賱賶 丕賱爻賲丞 丕賱丿丕賰賳丞"
+                                   }
+               },
+    "login":  {
+                  "description":  "丕賱乇噩丕亍 廿丿禺丕賱 丨爻丕亘賰 賵賰賱賲丞 丕賱賲乇賵乇 賱鬲爻噩賷賱 丕賱丿禺賵賱 廿賱賶 丕賱賳馗丕賲",
+                  "username":  "丕爻賲 丕賱賲爻鬲禺丿賲",
+                  "usernamePlaceholder":  "丕賱乇噩丕亍 廿丿禺丕賱 丕爻賲 丕賱賲爻鬲禺丿賲",
+                  "password":  "賰賱賲丞 丕賱賲乇賵乇",
+                  "passwordPlaceholder":  "丕賱乇噩丕亍 廿丿禺丕賱 賰賱賲丞 丕賱賲乇賵乇",
+                  "loginButton":  "鬲爻噩賷賱 丕賱丿禺賵賱",
+                  "loggingIn":  "噩丕乇賷 鬲爻噩賷賱 丕賱丿禺賵賱...",
+                  "successMessage":  "鬲賲 鬲爻噩賷賱 丕賱丿禺賵賱 亘賳噩丕丨",
+                  "errorEmptyFields":  "丕賱乇噩丕亍 廿丿禺丕賱 丕爻賲 丕賱賲爻鬲禺丿賲 賵賰賱賲丞 丕賱賲乇賵乇",
+                  "errorInvalidCredentials":  "賮卮賱 鬲爻噩賷賱 丕賱丿禺賵賱貙 賷乇噩賶 丕賱鬲丨賯賯 賲賳 丕爻賲 丕賱賲爻鬲禺丿賲 賵賰賱賲丞 丕賱賲乇賵乇",
+                  "authDisabled":  "鬲賲 鬲毓胤賷賱 丕賱賲氐丕丿賯丞. 丕爻鬲禺丿丕賲 賵囟毓 亘丿賵賳 鬲爻噩賷賱 丿禺賵賱.",
+                  "guestMode":  "賵囟毓 亘丿賵賳 鬲爻噩賷賱 丿禺賵賱"
+              },
+    "common":  {
+                   "cancel":  "廿賱睾丕亍",
+                   "save":  "丨賮馗",
+                   "saving":  "噩丕乇賺 丕賱丨賮馗...",
+                   "saveFailed":  "賮卮賱 丕賱丨賮馗"
+               },
+    "documentPanel":  {
+                          "clearDocuments":  {
+                                                 "button":  "賲爻丨",
+                                                 "tooltip":  "賲爻丨 丕賱賲爻鬲賳丿丕鬲",
+                                                 "title":  "賲爻丨 丕賱賲爻鬲賳丿丕鬲",
+                                                 "description":  "爻賷丐丿賷 賴匕丕 廿賱賶 廿夭丕賱丞 噩賲賷毓 丕賱賲爻鬲賳丿丕鬲 賲賳 丕賱賳馗丕賲",
+                                                 "warning":  "鬲丨匕賷乇: 爻賷丐丿賷 賴匕丕 丕賱廿噩乇丕亍 廿賱賶 丨匕賮 噩賲賷毓 丕賱賲爻鬲賳丿丕鬲 亘卮賰賱 丿丕卅賲 賵賱丕 賷賲賰賳 丕賱鬲乇丕噩毓 毓賳賴!",
+                                                 "confirm":  "賴賱 鬲乇賷丿 丨賯賸丕 賲爻丨 噩賲賷毓 丕賱賲爻鬲賳丿丕鬲責",
+                                                 "confirmPrompt":  "丕賰鬲亘 \u0027yes\u0027 賱鬲兀賰賷丿 賴匕丕 丕賱廿噩乇丕亍",
+                                                 "confirmPlaceholder":  "丕賰鬲亘 yes 賱賱鬲兀賰賷丿",
+                                                 "clearCache":  "賲爻丨 賰丕卮 賳賲賵匕噩 丕賱賱睾丞",
+                                                 "confirmButton":  "賳毓賲",
+                                                 "clearing":  "噩丕乇賺 丕賱賲爻丨...",
+                                                 "timeout":  "丕賳鬲賴鬲 賲賴賱丞 毓賲賱賷丞 丕賱賲爻丨貙 賷乇噩賶 丕賱賲丨丕賵賱丞 賲乇丞 兀禺乇賶",
+                                                 "success":  "鬲賲 賲爻丨 丕賱賲爻鬲賳丿丕鬲 亘賳噩丕丨",
+                                                 "cacheCleared":  "鬲賲 賲爻丨 匕丕賰乇丞 丕賱鬲禺夭賷賳 丕賱賲丐賯鬲 亘賳噩丕丨",
+                                                 "cacheClearFailed":  "賮卮賱 賲爻丨 匕丕賰乇丞 丕賱鬲禺夭賷賳 丕賱賲丐賯鬲:\n{{error}}",
+                                                 "failed":  "賮卮賱 賲爻丨 丕賱賲爻鬲賳丿丕鬲:\n{{message}}",
+                                                 "error":  "賮卮賱 賲爻丨 丕賱賲爻鬲賳丿丕鬲:\n{{error}}"
+                                             },
+                          "deleteDocuments":  {
+                                                  "button":  "丨匕賮",
+                                                  "tooltip":  "丨匕賮 丕賱賲爻鬲賳丿丕鬲 丕賱賲丨丿丿丞",
+                                                  "title":  "丨匕賮 丕賱賲爻鬲賳丿丕鬲",
+                                                  "description":  "爻賷丐丿賷 賴匕丕 廿賱賶 丨匕賮 丕賱賲爻鬲賳丿丕鬲 丕賱賲丨丿丿丞 賳賴丕卅賷賸丕 賲賳 丕賱賳馗丕賲",
+                                                  "warning":  "鬲丨匕賷乇: 爻賷丐丿賷 賴匕丕 丕賱廿噩乇丕亍 廿賱賶 丨匕賮 丕賱賲爻鬲賳丿丕鬲 丕賱賲丨丿丿丞 賳賴丕卅賷賸丕 賵賱丕 賷賲賰賳 丕賱鬲乇丕噩毓 毓賳賴!",
+                                                  "confirm":  "賴賱 鬲乇賷丿 丨賯賸丕 丨匕賮 {{count}} 賲爻鬲賳丿(丕鬲) 賲丨丿丿(丞)責",
+                                                  "confirmPrompt":  "丕賰鬲亘 \u0027yes\u0027 賱鬲兀賰賷丿 賴匕丕 丕賱廿噩乇丕亍",
+                                                  "confirmPlaceholder":  "丕賰鬲亘 yes 賱賱鬲兀賰賷丿",
+                                                  "confirmButton":  "賳毓賲",
+                                                  "deleteFileOption":  "丨匕賮 丕賱賲賱賮丕鬲 丕賱賲乇賮賵毓丞 兀賷囟賸丕",
+                                                  "deleteFileTooltip":  "丨丿丿 賴匕丕 丕賱禺賷丕乇 賱丨匕賮 丕賱賲賱賮丕鬲 丕賱賲乇賮賵毓丞 丕賱賲賯丕亘賱丞 毓賱賶 丕賱禺丕丿賲 兀賷囟賸丕",
+                                                  "deleteLLMCacheOption":  "丨匕賮 匕丕賰乇丞 LLM 丕賱賲丐賯鬲丞 賱賱丕爻鬲禺乇丕噩 兀賷囟賸丕",
+                                                  "success":  "鬲賲 亘丿亍 鬲卮睾賷賱 禺胤 賲毓丕賱噩丞 丨匕賮 丕賱賲爻鬲賳丿丕鬲 亘賳噩丕丨",
+                                                  "failed":  "賮卮賱 丨匕賮 丕賱賲爻鬲賳丿丕鬲:\n{{message}}",
+                                                  "error":  "賮卮賱 丨匕賮 丕賱賲爻鬲賳丿丕鬲:\n{{error}}",
+                                                  "busy":  "禺胤 丕賱賲毓丕賱噩丞 賲卮睾賵賱貙 賷乇噩賶 丕賱賲丨丕賵賱丞 賲乇丞 兀禺乇賶 賱丕丨賯賸丕",
+                                                  "notAllowed":  "賱丕 鬲賵噩丿 氐賱丕丨賷丞 賱鬲賳賮賷匕 賴匕賴 丕賱毓賲賱賷丞"
+                                              },
+                          "selectDocuments":  {
+                                                  "selectCurrentPage":  "鬲丨丿賷丿 丕賱氐賮丨丞 丕賱丨丕賱賷丞 ({{count}})",
+                                                  "deselectAll":  "廿賱睾丕亍 鬲丨丿賷丿 丕賱賰賱 ({{count}})"
+                                              },
+                          "uploadDocuments":  {
+                                                  "button":  "乇賮毓",
+                                                  "tooltip":  "乇賮毓 丕賱賲爻鬲賳丿丕鬲",
+                                                  "title":  "乇賮毓 丕賱賲爻鬲賳丿丕鬲",
+                                                  "description":  "丕爻丨亘 賵兀賮賱鬲 賲爻鬲賳丿丕鬲賰 賴賳丕 兀賵 丕賳賯乇 賱賱鬲氐賮丨.",
+                                                  "single":  {
+                                                                 "uploading":  "噩丕乇賺 丕賱乇賮毓 {{name}}: {{percent}}%",
+                                                                 "success":  "賳噩丕丨 丕賱乇賮毓:\n鬲賲 乇賮毓 {{name}} 亘賳噩丕丨",
+                                                                 "failed":  "賮卮賱 丕賱乇賮毓:\n{{name}}\n{{message}}",
+                                                                 "error":  "賮卮賱 丕賱乇賮毓:\n{{name}}\n{{error}}"
+                                                             },
+                                                  "batch":  {
+                                                                "uploading":  "噩丕乇賺 乇賮毓 丕賱賲賱賮丕鬲...",
+                                                                "success":  "鬲賲 乇賮毓 丕賱賲賱賮丕鬲 亘賳噩丕丨",
+                                                                "error":  "賮卮賱 乇賮毓 亘毓囟 丕賱賲賱賮丕鬲"
+                                                            },
+                                                  "generalError":  "賮卮賱 丕賱乇賮毓\n{{error}}",
+                                                  "fileTypes":  "丕賱兀賳賵丕毓 丕賱賲丿毓賵賲丞: TXT貙 MD貙 DOCX貙 PDF貙 PPTX貙 XLSX貙 RTF貙 ODT貙 EPUB貙 HTML貙 HTM貙 TEX貙 JSON貙 XML貙 YAML貙 YML貙 CSV貙 LOG貙 CONF貙 INI貙 PROPERTIES貙 SQL貙 BAT貙 SH貙 C貙 CPP貙 PY貙 JAVA貙 JS貙 TS貙 SWIFT貙 GO貙 RB貙 PHP貙 CSS貙 SCSS貙 LESS",
+                                                  "fileUploader":  {
+                                                                       "singleFileLimit":  "賱丕 賷賲賰賳 乇賮毓 兀賰孬乇 賲賳 賲賱賮 賵丕丨丿 賮賷 丕賱賲乇丞 丕賱賵丕丨丿丞",
+                                                                       "maxFilesLimit":  "賱丕 賷賲賰賳 乇賮毓 兀賰孬乇 賲賳 {{count}} 賲賱賮丕鬲",
+                                                                       "fileRejected":  "鬲賲 乇賮囟 丕賱賲賱賮 {{name}}",
+                                                                       "unsupportedType":  "賳賵毓 丕賱賲賱賮 睾賷乇 賲丿毓賵賲",
+                                                                       "fileTooLarge":  "丨噩賲 丕賱賲賱賮 賰亘賷乇 噩丿賸丕貙 丕賱丨丿 丕賱兀賯氐賶 {{maxSize}}",
+                                                                       "dropHere":  "兀賮賱鬲 丕賱賲賱賮丕鬲 賴賳丕",
+                                                                       "dragAndDrop":  "丕爻丨亘 賵兀賮賱鬲 丕賱賲賱賮丕鬲 賴賳丕貙 兀賵 丕賳賯乇 賱賱丕禺鬲賷丕乇",
+                                                                       "removeFile":  "廿夭丕賱丞 丕賱賲賱賮",
+                                                                       "uploadDescription":  "賷賲賰賳賰 乇賮毓 {{isMultiple ? \u0027毓丿丞\u0027 : count}} 賲賱賮丕鬲 (丨鬲賶 {{maxSize}} 賱賰賱 賲賳賴丕)",
+                                                                       "duplicateFile":  "丕爻賲 丕賱賲賱賮 賲賵噩賵丿 亘丕賱賮毓賱 賮賷 匕丕賰乇丞 丕賱鬲禺夭賷賳 丕賱賲丐賯鬲 賱賱禺丕丿賲"
+                                                                   }
+                                              },
+                          "documentManager":  {
+                                                  "title":  "廿丿丕乇丞 丕賱賲爻鬲賳丿丕鬲",
+                                                  "scanButton":  "賲爻丨/廿毓丕丿丞 賲丨丕賵賱丞",
+                                                  "scanTooltip":  "賲爻丨 賵賲毓丕賱噩丞 丕賱賲爻鬲賳丿丕鬲 賮賷 賲噩賱丿 丕賱廿丿禺丕賱貙 賵廿毓丕丿丞 賲毓丕賱噩丞 噩賲賷毓 丕賱賲爻鬲賳丿丕鬲 丕賱賮丕卮賱丞 兀賷囟賸丕",
+                                                  "refreshTooltip":  "廿毓丕丿丞 鬲毓賷賷賳 賯丕卅賲丞 丕賱賲爻鬲賳丿丕鬲",
+                                                  "pipelineStatusButton":  "禺胤 丕賱賲毓丕賱噩丞",
+                                                  "pipelineStatusTooltip":  "毓乇囟 丨丕賱丞 禺胤 賲毓丕賱噩丞 丕賱賲爻鬲賳丿丕鬲",
+                                                  "uploadedTitle":  "丕賱賲爻鬲賳丿丕鬲 丕賱賲乇賮賵毓丞",
+                                                  "uploadedDescription":  "賯丕卅賲丞 丕賱賲爻鬲賳丿丕鬲 丕賱賲乇賮賵毓丞 賵丨丕賱丕鬲賴丕.",
+                                                  "emptyTitle":  "賱丕 鬲賵噩丿 賲爻鬲賳丿丕鬲",
+                                                  "emptyDescription":  "賱丕 鬲賵噩丿 賲爻鬲賳丿丕鬲 賲乇賮賵毓丞 亘毓丿.",
+                                                  "columns":  {
+                                                                  "id":  "丕賱賲毓乇賮",
+                                                                  "fileName":  "丕爻賲 丕賱賲賱賮",
+                                                                  "summary":  "丕賱賲賱禺氐",
+                                                                  "status":  "丕賱丨丕賱丞",
+                                                                  "length":  "丕賱胤賵賱",
+                                                                  "chunks":  "丕賱兀噩夭丕亍",
+                                                                  "created":  "鬲賲 丕賱廿賳卮丕亍",
+                                                                  "updated":  "鬲賲 丕賱鬲丨丿賷孬",
+                                                                  "metadata":  "丕賱亘賷丕賳丕鬲 丕賱賵氐賮賷丞",
+                                                                  "select":  "丕禺鬲賷丕乇"
+                                                              },
+                                                  "status":  {
+                                                                 "all":  "丕賱賰賱",
+                                                                 "completed":  "賲賰鬲賲賱",
+                                                                 "preprocessed":  "賲購毓丕賱噩 賲爻亘賯賸丕",
+                                                                 "processing":  "賯賷丿 丕賱賲毓丕賱噩丞",
+                                                                 "pending":  "賲毓賱賯",
+                                                                 "failed":  "賮卮賱"
+                                                             },
+                                                  "errors":  {
+                                                                 "loadFailed":  "賮卮賱 鬲丨賲賷賱 丕賱賲爻鬲賳丿丕鬲\n{{error}}",
+                                                                 "scanFailed":  "賮卮賱 賲爻丨 丕賱賲爻鬲賳丿丕鬲\n{{error}}",
+                                                                 "scanProgressFailed":  "賮卮賱 丕賱丨氐賵賱 毓賱賶 鬲賯丿賲 丕賱賲爻丨\n{{error}}"
+                                                             },
+                                                  "fileNameLabel":  "丕爻賲 丕賱賲賱賮",
+                                                  "showButton":  "毓乇囟",
+                                                  "hideButton":  "廿禺賮丕亍",
+                                                  "showFileNameTooltip":  "毓乇囟 丕爻賲 丕賱賲賱賮",
+                                                  "hideFileNameTooltip":  "廿禺賮丕亍 丕爻賲 丕賱賲賱賮"
+                                              },
+                          "pipelineStatus":  {
+                                                 "title":  "丨丕賱丞 禺胤 丕賱兀賳丕亘賷亘",
+                                                 "busy":  "禺胤 丕賱兀賳丕亘賷亘 賲卮睾賵賱",
+                                                 "requestPending":  "胤賱亘 賲毓賱賯",
+                                                 "cancellationRequested":  "胤賱亘 丕賱廿賱睾丕亍",
+                                                 "jobName":  "丕爻賲 丕賱賲賴賲丞",
+                                                 "startTime":  "賵賯鬲 丕賱亘丿亍",
+                                                 "progress":  "丕賱鬲賯丿賲",
+                                                 "unit":  "丿賮毓丞",
+                                                 "pipelineMessages":  "乇爻丕卅賱 禺胤 丕賱兀賳丕亘賷亘",
+                                                 "cancelButton":  "廿賱睾丕亍",
+                                                 "cancelTooltip":  "廿賱睾丕亍 賲毓丕賱噩丞 禺胤 丕賱兀賳丕亘賷亘",
+                                                 "cancelConfirmTitle":  "鬲兀賰賷丿 廿賱睾丕亍 禺胤 丕賱兀賳丕亘賷亘",
+                                                 "cancelConfirmDescription":  "爻賷丐丿賷 賴匕丕 丕賱廿噩乇丕亍 廿賱賶 廿賷賯丕賮 賲毓丕賱噩丞 禺胤 丕賱兀賳丕亘賷亘 丕賱噩丕乇賷丞. 賴賱 兀賳鬲 賲鬲兀賰丿 賲賳 兀賳賰 鬲乇賷丿 丕賱賲鬲丕亘毓丞責",
+                                                 "cancelConfirmButton":  "鬲兀賰賷丿 丕賱廿賱睾丕亍",
+                                                 "cancelInProgress":  "丕賱廿賱睾丕亍 賯賷丿 丕賱鬲賯丿賲...",
+                                                 "pipelineNotRunning":  "禺胤 丕賱兀賳丕亘賷亘 睾賷乇 賯賷丿 丕賱鬲卮睾賷賱",
+                                                 "cancelSuccess":  "鬲賲 胤賱亘 廿賱睾丕亍 禺胤 丕賱兀賳丕亘賷亘",
+                                                 "cancelFailed":  "賮卮賱 廿賱睾丕亍 禺胤 丕賱兀賳丕亘賷亘\n{{error}}",
+                                                 "cancelNotBusy":  "禺胤 丕賱兀賳丕亘賷亘 睾賷乇 賯賷丿 丕賱鬲卮睾賷賱貙 賱丕 丨丕噩丞 賱賱廿賱睾丕亍",
+                                                 "errors":  {
+                                                                "fetchFailed":  "賮卮賱 賮賷 噩賱亘 丨丕賱丞 禺胤 丕賱兀賳丕亘賷亘\n{{error}}"
+                                                            }
+                                             }
+                      },
+    "graphPanel":  {
+                       "dataIsTruncated":  "鬲賲 丕賯鬲氐丕乇 亘賷丕賳丕鬲 丕賱乇爻賲 丕賱亘賷丕賳賷 毓賱賶 丕賱丨丿 丕賱兀賯氐賶 賱賱毓賯丿",
+                       "statusDialog":  {
+                                            "title":  "إعدادات الخادم",
+                                            "description":  "毓乇囟 丨丕賱丞 丕賱賳馗丕賲 丕賱丨丕賱賷丞 賵賲毓賱賵賲丕鬲 丕賱丕鬲氐丕賱"
+                                        },
+                       "legend":  "丕賱賲賮鬲丕丨",
+                       "nodeTypes":  {
+                                         "person":  "卮禺氐",
+                                         "category":  "賮卅丞",
+                                         "geo":  "賰賷丕賳 噩睾乇丕賮賷",
+                                         "location":  "賲賵賯毓",
+                                         "organization":  "賲賳馗賲丞",
+                                         "event":  "丨丿孬",
+                                         "equipment":  "賲毓丿丕鬲",
+                                         "weapon":  "爻賱丕丨",
+                                         "animal":  "丨賷賵丕賳",
+                                         "unknown":  "睾賷乇 賲毓乇賵賮",
+                                         "object":  "賲氐賳賵毓",
+                                         "group":  "賲噩賲賵毓丞",
+                                         "technology":  "丕賱毓賱賵賲",
+                                         "product":  "賲賳鬲噩",
+                                         "document":  "賵孬賷賯丞",
+                                         "content":  "賲丨鬲賵賶",
+                                         "data":  "亘賷丕賳丕鬲",
+                                         "artifact":  "賯胤毓丞 兀孬乇賷丞",
+                                         "concept":  "賲賮賴賵賲",
+                                         "naturalobject":  "賰丕卅賳 胤亘賷毓賷",
+                                         "method":  "毓賲賱賷丞",
+                                         "creature":  "賲禺賱賵賯",
+                                         "plant":  "賳亘丕鬲",
+                                         "disease":  "賲乇囟",
+                                         "drug":  "丿賵丕亍",
+                                         "food":  "胤毓丕賲",
+                                         "other":  "兀禺乇賶"
+                                     },
+                       "sideBar":  {
+                                       "settings":  {
+                                                        "settings":  "丕賱廿毓丿丕丿丕鬲",
+                                                        "healthCheck":  "賮丨氐 丕賱丨丕賱丞",
+                                                        "showPropertyPanel":  "廿馗賴丕乇 賱賵丨丞 丕賱禺氐丕卅氐",
+                                                        "showSearchBar":  "廿馗賴丕乇 卮乇賷胤 丕賱亘丨孬",
+                                                        "showNodeLabel":  "廿馗賴丕乇 鬲爻賲賷丞 丕賱毓賯丿丞",
+                                                        "nodeDraggable":  "丕賱毓賯丿丞 賯丕亘賱丞 賱賱爻丨亘",
+                                                        "showEdgeLabel":  "廿馗賴丕乇 鬲爻賲賷丞 丕賱丨丕賮丞",
+                                                        "hideUnselectedEdges":  "廿禺賮丕亍 丕賱丨賵丕賮 睾賷乇 丕賱賲丨丿丿丞",
+                                                        "edgeEvents":  "兀丨丿丕孬 丕賱丨丕賮丞",
+                                                        "maxQueryDepth":  "兀賯氐賶 毓賲賯 賱賱丕爻鬲毓賱丕賲",
+                                                        "maxNodes":  "丕賱丨丿 丕賱兀賯氐賶 賱賱毓賯丿",
+                                                        "maxLayoutIterations":  "兀賯氐賶 鬲賰乇丕乇丕鬲 丕賱鬲禺胤賷胤",
+                                                        "resetToDefault":  "廿毓丕丿丞 丕賱鬲毓賷賷賳 廿賱賶 丕賱丕賮鬲乇丕囟賷",
+                                                        "edgeSizeRange":  "賳胤丕賯 丨噩賲 丕賱丨丕賮丞",
+                                                        "depth":  "D",
+                                                        "max":  "Max",
+                                                        "degree":  "丕賱丿乇噩丞",
+                                                        "apiKey":  "賲賮鬲丕丨 賵丕噩賴丞 亘乇賲噩丞 丕賱鬲胤亘賷賯丕鬲",
+                                                        "enterYourAPIkey":  "兀丿禺賱 賲賮鬲丕丨 賵丕噩賴丞 亘乇賲噩丞 丕賱鬲胤亘賷賯丕鬲 丕賱禺丕氐 亘賰",
+                                                        "save":  "丨賮馗",
+                                                        "refreshLayout":  "鬲丨丿賷孬 丕賱鬲禺胤賷胤"
+                                                    },
+                                       "zoomControl":  {
+                                                           "zoomIn":  "鬲賰亘賷乇",
+                                                           "zoomOut":  "鬲氐睾賷乇",
+                                                           "resetZoom":  "廿毓丕丿丞 鬲毓賷賷賳 丕賱鬲賰亘賷乇",
+                                                           "rotateCamera":  "鬲丿賵賷乇 賮賷 丕鬲噩丕賴 毓賯丕乇亘 丕賱爻丕毓丞",
+                                                           "rotateCameraCounterClockwise":  "鬲丿賵賷乇 毓賰爻 丕鬲噩丕賴 毓賯丕乇亘 丕賱爻丕毓丞"
+                                                       },
+                                       "layoutsControl":  {
+                                                              "startAnimation":  "亘丿亍 丨乇賰丞 丕賱鬲禺胤賷胤",
+                                                              "stopAnimation":  "廿賷賯丕賮 丨乇賰丞 丕賱鬲禺胤賷胤",
+                                                              "layoutGraph":  "鬲禺胤賷胤 丕賱乇爻賲 丕賱亘賷丕賳賷",
+                                                              "layouts":  {
+                                                                              "Circular":  "丿丕卅乇賷",
+                                                                              "Circlepack":  "丨夭賲丞 丿丕卅乇賷丞",
+                                                                              "Random":  "毓卮賵丕卅賷",
+                                                                              "Noverlaps":  "亘丿賵賳 鬲丿丕禺賱",
+                                                                              "Force Directed":  "賲賵噩賴 亘丕賱賯賵丞",
+                                                                              "Force Atlas":  "兀胤賱爻 丕賱賯賵丞"
+                                                                          }
+                                                          },
+                                       "fullScreenControl":  {
+                                                                 "fullScreen":  "卮丕卮丞 賰丕賲賱丞",
+                                                                 "windowed":  "賳賵丕賮匕"
+                                                             },
+                                       "legendControl":  {
+                                                             "toggleLegend":  "鬲亘丿賷賱 丕賱賲賮鬲丕丨"
+                                                         }
+                                   },
+                       "statusIndicator":  {
+                                               "connected":  "賲鬲氐賱",
+                                               "disconnected":  "睾賷乇 賲鬲氐賱"
+                                           },
+                       "statusCard":  {
+                                          "unavailable":  "賲毓賱賵賲丕鬲 丕賱丨丕賱丞 睾賷乇 賲鬲賵賮乇丞",
+                                          "serverInfo":  "賲毓賱賵賲丕鬲 丕賱禺丕丿賲",
+                                          "workingDirectory":  "丿賱賷賱 丕賱毓賲賱",
+                                          "inputDirectory":  "丿賱賷賱 丕賱廿丿禺丕賱",
+                                          "maxParallelInsert":  "賲毓丕賱噩丞 丕賱賲爻鬲賳丿丕鬲 丕賱賲鬲夭丕賲賳丞",
+                                          "summarySettings":  "廿毓丿丕丿丕鬲 丕賱賲賱禺氐",
+                                          "llmConfig":  "鬲賰賵賷賳 賳賲賵匕噩 丕賱賱睾丞 丕賱賰亘賷乇",
+                                          "llmBinding":  "乇亘胤 賳賲賵匕噩 丕賱賱睾丞 丕賱賰亘賷乇",
+                                          "llmBindingHost":  "賳賯胤丞 賳賴丕賷丞 賳賲賵匕噩 丕賱賱睾丞 丕賱賰亘賷乇",
+                                          "llmModel":  "賳賲賵匕噩 丕賱賱睾丞 丕賱賰亘賷乇",
+                                          "embeddingConfig":  "鬲賰賵賷賳 丕賱鬲囟賲賷賳",
+                                          "embeddingBinding":  "乇亘胤 丕賱鬲囟賲賷賳",
+                                          "embeddingBindingHost":  "賳賯胤丞 賳賴丕賷丞 丕賱鬲囟賲賷賳",
+                                          "embeddingModel":  "賳賲賵匕噩 丕賱鬲囟賲賷賳",
+                                          "storageConfig":  "鬲賰賵賷賳 丕賱鬲禺夭賷賳",
+                                          "kvStorage":  "鬲禺夭賷賳 丕賱賲賮鬲丕丨-丕賱賯賷賲丞",
+                                          "docStatusStorage":  "鬲禺夭賷賳 丨丕賱丞 丕賱賲爻鬲賳丿",
+                                          "graphStorage":  "鬲禺夭賷賳 丕賱乇爻賲 丕賱亘賷丕賳賷",
+                                          "vectorStorage":  "鬲禺夭賷賳 丕賱賲鬲噩賴丕鬲",
+                                          "workspace":  "賲爻丕丨丞 丕賱毓賲賱",
+                                          "maxGraphNodes":  "丕賱丨丿 丕賱兀賯氐賶 賱毓賯丿 丕賱乇爻賲 丕賱亘賷丕賳賷",
+                                          "rerankerConfig":  "鬲賰賵賷賳 廿毓丕丿丞 丕賱鬲乇鬲賷亘",
+                                          "rerankerBindingHost":  "賳賯胤丞 賳賴丕賷丞 廿毓丕丿丞 丕賱鬲乇鬲賷亘",
+                                          "rerankerModel":  "賳賲賵匕噩 廿毓丕丿丞 丕賱鬲乇鬲賷亘",
+                                          "lockStatus":  "丨丕賱丞 丕賱賯賮賱",
+                                          "threshold":  "丕賱毓鬲亘丞"
+                                      },
+                       "propertiesView":  {
+                                              "editProperty":  "鬲毓丿賷賱 {{property}}",
+                                              "editPropertyDescription":  "賯賲 亘鬲丨乇賷乇 賯賷賲丞 丕賱禺丕氐賷丞 賮賷 賲賳胤賯丞 丕賱賳氐 兀丿賳丕賴.",
+                                              "errors":  {
+                                                             "duplicateName":  "丕爻賲 丕賱毓賯丿丞 賲賵噩賵丿 亘丕賱賮毓賱",
+                                                             "updateFailed":  "賮卮賱 鬲丨丿賷孬 丕賱毓賯丿丞",
+                                                             "tryAgainLater":  "賷乇噩賶 丕賱賲丨丕賵賱丞 賲乇丞 兀禺乇賶 賱丕丨賯賸丕",
+                                                             "updateSuccessButMergeFailed":  "鬲賲 鬲丨丿賷孬 丕賱禺氐丕卅氐貙 賱賰賳 丕賱丿賲噩 賮卮賱: {{error}}",
+                                                             "mergeFailed":  "賮卮賱 丕賱丿賲噩: {{error}}"
+                                                         },
+                                              "success":  {
+                                                              "entityUpdated":  "鬲賲 鬲丨丿賷孬 丕賱毓賯丿丞 亘賳噩丕丨",
+                                                              "relationUpdated":  "鬲賲 鬲丨丿賷孬 丕賱毓賱丕賯丞 亘賳噩丕丨",
+                                                              "entityMerged":  "鬲賲 丿賲噩 丕賱毓賯丿 亘賳噩丕丨"
+                                                          },
+                                              "mergeOptionLabel":  "丿賲噩 鬲賱賯丕卅賷 毓賳丿 丕賱毓孬賵乇 毓賱賶 丕爻賲 賲賰乇乇",
+                                              "mergeOptionDescription":  "毓賳丿 丕賱鬲賮毓賷賱貙 爻賷鬲賲 丿賲噩 賴匕賴 丕賱毓賯丿丞 鬲賱賯丕卅賷賸丕 賮賷 丕賱毓賯丿丞 丕賱賲賵噩賵丿丞 亘丿賱丕賸 賲賳 馗賴賵乇 禺胤兀 毓賳丿 廿毓丕丿丞 丕賱鬲爻賲賷丞 亘賳賮爻 丕賱丕爻賲.",
+                                              "mergeDialog":  {
+                                                                  "title":  "鬲賲 丿賲噩 丕賱毓賯丿丞",
+                                                                  "description":  "\"{{source}}\" 鬲賲 丿賲噩賴丕 賮賷 \"{{target}}\".",
+                                                                  "refreshHint":  "賷噩亘 鬲丨丿賷孬 丕賱乇爻賲 丕賱亘賷丕賳賷 賱鬲丨賲賷賱 丕賱亘賳賷丞 丕賱兀丨丿孬.",
+                                                                  "keepCurrentStart":  "鬲丨丿賷孬 賲毓 丕賱丨賮丕馗 毓賱賶 毓賯丿丞 丕賱亘丿亍 丕賱丨丕賱賷丞",
+                                                                  "useMergedStart":  "鬲丨丿賷孬 賵丕爻鬲禺丿丕賲 丕賱毓賯丿丞 丕賱賲丿賲噩丞 賰賳賯胤丞 亘丿亍",
+                                                                  "refreshing":  "噩丕乇賺 鬲丨丿賷孬 丕賱乇爻賲 丕賱亘賷丕賳賷..."
+                                                              },
+                                              "node":  {
+                                                           "title":  "毓賯丿丞",
+                                                           "id":  "丕賱賲毓乇賮",
+                                                           "labels":  "丕賱鬲爻賲賷丕鬲",
+                                                           "degree":  "丕賱丿乇噩丞",
+                                                           "properties":  "丕賱禺氐丕卅氐",
+                                                           "relationships":  "丕賱毓賱丕賯丕鬲 (丿丕禺賱 丕賱乇爻賲 丕賱賮乇毓賷)",
+                                                           "expandNode":  "鬲賵爻賷毓 丕賱毓賯丿丞",
+                                                           "pruneNode":  "鬲賯賱賷賲 丕賱毓賯丿丞",
+                                                           "deleteAllNodesError":  "乇賮囟 丨匕賮 噩賲賷毓 丕賱毓賯丿 賮賷 丕賱乇爻賲 丕賱亘賷丕賳賷",
+                                                           "nodesRemoved":  "鬲賲 廿夭丕賱丞 {{count}} 毓賯丿丞貙 亘賲丕 賮賷 匕賱賰 丕賱毓賯丿 丕賱賷鬲賷賲丞",
+                                                           "noNewNodes":  "賱賲 賷鬲賲 丕賱毓孬賵乇 毓賱賶 毓賯丿 賯丕亘賱丞 賱賱鬲賵爻賷毓",
+                                                           "propertyNames":  {
+                                                                                 "description":  "丕賱賵氐賮",
+                                                                                 "entity_id":  "丕賱丕爻賲",
+                                                                                 "entity_type":  "丕賱賳賵毓",
+                                                                                 "source_id":  "C-ID",
+                                                                                 "Neighbour":  "丕賱噩丕乇",
+                                                                                 "file_path":  "File",
+                                                                                 "keywords":  "Keyword",
+                                                                                 "weight":  "丕賱賵夭賳"
+                                                                             }
+                                                       },
+                                              "edge":  {
+                                                           "title":  "毓賱丕賯丞",
+                                                           "id":  "丕賱賲毓乇賮",
+                                                           "type":  "丕賱賳賵毓",
+                                                           "source":  "丕賱賲氐丿乇",
+                                                           "target":  "丕賱賴丿賮",
+                                                           "properties":  "丕賱禺氐丕卅氐"
+                                                       }
+                                          },
+                       "search":  {
+                                      "placeholder":  "丕亘丨孬 賮賷 丕賱毓賯丿 賮賷 丕賱氐賮丨丞...",
+                                      "message":  "賵 {{count}} 丌禺乇賵賳"
+                                  },
+                       "graphLabels":  {
+                                           "selectTooltip":  "丕賱丨氐賵賱 毓賱賶 丕賱乇爻賲 丕賱亘賷丕賳賷 丕賱賮乇毓賷 賱毓賯丿丞 (鬲爻賲賷丞)",
+                                           "noLabels":  "賱賲 賷鬲賲 丕賱毓孬賵乇 毓賱賶 毓賯丿 賲胤丕亘賯丞",
+                                           "label":  "丕賱亘丨孬 毓賳 丕爻賲 丕賱毓賯丿丞",
+                                           "placeholder":  "丕賱亘丨孬 毓賳 丕爻賲 丕賱毓賯丿丞...",
+                                           "andOthers":  "賵 {{count}} 丌禺乇賵賳",
+                                           "refreshGlobalTooltip":  "鬲丨丿賷孬 亘賷丕賳丕鬲 丕賱乇爻賲 丕賱亘賷丕賳賷 丕賱毓丕賱賲賷 賵廿毓丕丿丞 鬲毓賷賷賳 爻噩賱 丕賱亘丨孬",
+                                           "refreshCurrentLabelTooltip":  "鬲丨丿賷孬 亘賷丕賳丕鬲 丕賱乇爻賲 丕賱亘賷丕賳賷 賱賱氐賮丨丞 丕賱丨丕賱賷丞",
+                                           "refreshingTooltip":  "噩丕乇賺 鬲丨丿賷孬 丕賱亘賷丕賳丕鬲..."
+                                       },
+                       "emptyGraph":  "賮丕乇睾 (丨丕賵賱 廿毓丕丿丞 丕賱鬲丨賲賷賱)"
+                   },
+    "retrievePanel":  {
+                          "chatMessage":  {
+                                              "copyTooltip":  "賳爻禺 廿賱賶 丕賱丨丕賮馗丞",
+                                              "copyError":  "賮卮賱 賳爻禺 丕賱賳氐 廿賱賶 丕賱丨丕賮馗丞",
+                                              "copyEmpty":  "賱丕 賷賵噩丿 賲丨鬲賵賶 賱賱賳爻禺",
+                                              "copySuccess":  "鬲賲 賳爻禺 丕賱賲丨鬲賵賶 廿賱賶 丕賱丨丕賮馗丞",
+                                              "copySuccessLegacy":  "鬲賲 賳爻禺 丕賱賲丨鬲賵賶 (丕賱胤乇賷賯丞 丕賱鬲賯賱賷丿賷丞)",
+                                              "copySuccessManual":  "鬲賲 賳爻禺 丕賱賲丨鬲賵賶 (丕賱胤乇賷賯丞 丕賱賷丿賵賷丞)",
+                                              "copyFailed":  "賮卮賱 賳爻禺 丕賱賲丨鬲賵賶",
+                                              "copyManualInstruction":  "賷乇噩賶 鬲丨丿賷丿 賵賳爻禺 丕賱賳氐 賷丿賵賷丕賸",
+                                              "thinking":  "噩丕乇賷 丕賱鬲賮賰賷乇...",
+                                              "thinkingTime":  "賵賯鬲 丕賱鬲賮賰賷乇 {{time}} 孬丕賳賷丞",
+                                              "thinkingInProgress":  "丕賱鬲賮賰賷乇 賯賷丿 丕賱鬲賯丿賲..."
+                                          },
+                          "retrieval":  {
+                                            "startPrompt":  "丕亘丿兀 丕賱丕爻鬲乇噩丕毓 亘賰鬲丕亘丞 丕爻鬲賮爻丕乇賰 兀丿賳丕賴",
+                                            "clear":  "賲爻丨",
+                                            "send":  "廿乇爻丕賱",
+                                            "placeholder":  "丕賰鬲亘 丕爻鬲賮爻丕乇賰 (亘丕丿卅丞 賵囟毓 丕賱丕爻鬲毓賱丕賲: /\u003cQuery Mode\u003e)",
+                                            "error":  "禺胤兀: 賮卮賱 丕賱丨氐賵賱 毓賱賶 丕賱乇丿",
+                                            "queryModeError":  "賷購爻賲丨 賮賯胤 亘兀賳賲丕胤 丕賱丕爻鬲毓賱丕賲 丕賱鬲丕賱賷丞: {{modes}}",
+                                            "queryModePrefixInvalid":  "亘丕丿卅丞 賵囟毓 丕賱丕爻鬲毓賱丕賲 睾賷乇 氐丕賱丨丞. 丕爻鬲禺丿賲: /\u003c丕賱賵囟毓\u003e [賲爻丕賮丞] 丕爻鬲賮爻丕乇賰"
+                                        },
+                          "querySettings":  {
+                                                "parametersTitle":  "丕賱賲毓賱賲丕鬲",
+                                                "parametersDescription":  "鬲賰賵賷賳 賲毓賱賲丕鬲 丕賱丕爻鬲毓賱丕賲 丕賱禺丕氐 亘賰",
+                                                "queryMode":  "賵囟毓 丕賱丕爻鬲毓賱丕賲",
+                                                "queryModeTooltip":  "丨丿丿 丕爻鬲乇丕鬲賷噩賷丞 丕賱丕爻鬲乇噩丕毓:\n鈥?爻丕匕噩: 丕爻鬲乇噩丕毓 賲鬲噩賴賷 鬲賯賱賷丿賷 賱賯胤毓 丕賱賳氐\n鈥?賲丨賱賷: 賷乇賰夭 毓賱賶 丕爻鬲乇噩丕毓 丕賱賰賷丕賳丕鬲\n鈥?毓丕賱賲賷: 賷乇賰夭 毓賱賶 丕爻鬲乇噩丕毓 丕賱毓賱丕賯丕鬲\n鈥?賲禺鬲賱胤: 賲丨賱賷+毓丕賱賲賷\n鈥?賲夭賷噩: 賲丨賱賷+毓丕賱賲賷+爻丕匕噩\n鈥?鬲噩丕賵夭: 鬲禺胤賷 丕賱丕爻鬲乇噩丕毓貙 廿乇爻丕賱 鬲丕乇賷禺 丕賱賲丨丕丿孬丞 賵丕賱爻丐丕賱 丕賱丨丕賱賷 廿賱賶 LLM",
+                                                "queryModeOptions":  {
+                                                                         "naive":  "爻丕匕噩",
+                                                                         "local":  "賲丨賱賷",
+                                                                         "global":  "毓丕賱賲賷",
+                                                                         "hybrid":  "賲禺鬲賱胤",
+                                                                         "mix":  "賲夭賷噩",
+                                                                         "bypass":  "鬲噩丕賵夭"
+                                                                     },
+                                                "responseFormat":  "鬲賳爻賷賯 丕賱乇丿",
+                                                "responseFormatTooltip":  "賷丨丿丿 鬲賳爻賷賯 丕賱乇丿. 兀賲孬賱丞:\n鈥?賮賯乇丕鬲 賲鬲毓丿丿丞\n鈥?賮賯乇丞 賵丕丨丿丞\n鈥?賳賯丕胤 賳賯胤賷丞",
+                                                "responseFormatOptions":  {
+                                                                              "multipleParagraphs":  "賮賯乇丕鬲 賲鬲毓丿丿丞",
+                                                                              "singleParagraph":  "賮賯乇丞 賵丕丨丿丞",
+                                                                              "bulletPoints":  "賳賯丕胤 賳賯胤賷丞"
+                                                                          },
+                                                "topK":  "KG 兀毓賱賶 K",
+                                                "topKTooltip":  "毓丿丿 丕賱賰賷丕賳丕鬲 賵丕賱毓賱丕賯丕鬲 丕賱賲胤賱賵亘 丕爻鬲乇丿丕丿賴丕貙 賱丕 賷賳胤亘賯 毓賱賶 丕賱賵囟毓 薪邪懈胁薪褘泄.",
+                                                "topKPlaceholder":  "兀丿禺賱 賯賷賲丞 top_k",
+                                                "chunkTopK":  "兀毓賱賶 K 賱賱賯胤毓",
+                                                "chunkTopKTooltip":  "毓丿丿 兀噩夭丕亍 丕賱賳氐 丕賱賲胤賱賵亘 丕爻鬲乇丿丕丿賴丕貙 賵賷賳胤亘賯 毓賱賶 噩賲賷毓 丕賱兀賵囟丕毓.",
+                                                "chunkTopKPlaceholder":  "兀丿禺賱 賯賷賲丞 chunk_top_k",
+                                                "maxEntityTokens":  "丕賱丨丿 丕賱兀賯氐賶 賱乇賲賵夭 丕賱賰賷丕賳",
+                                                "maxEntityTokensTooltip":  "丕賱丨丿 丕賱兀賯氐賶 賱毓丿丿 丕賱乇賲賵夭 丕賱賲禺氐氐丞 賱爻賷丕賯 丕賱賰賷丕賳 賮賷 賳馗丕賲 丕賱鬲丨賰賲 丕賱賲賵丨丿 賮賷 丕賱乇賲賵夭",
+                                                "maxRelationTokens":  "丕賱丨丿 丕賱兀賯氐賶 賱乇賲賵夭 丕賱毓賱丕賯丞",
+                                                "maxRelationTokensTooltip":  "丕賱丨丿 丕賱兀賯氐賶 賱毓丿丿 丕賱乇賲賵夭 丕賱賲禺氐氐丞 賱爻賷丕賯 丕賱毓賱丕賯丞 賮賷 賳馗丕賲 丕賱鬲丨賰賲 丕賱賲賵丨丿 賮賷 丕賱乇賲賵夭",
+                                                "maxTotalTokens":  "廿噩賲丕賱賷 丕賱丨丿 丕賱兀賯氐賶 賱賱乇賲賵夭",
+                                                "maxTotalTokensTooltip":  "丕賱丨丿 丕賱兀賯氐賶 丕賱廿噩賲丕賱賷 賱賲賷夭丕賳賷丞 丕賱乇賲賵夭 賱爻賷丕賯 丕賱丕爻鬲毓賱丕賲 亘丕賱賰丕賲賱 (丕賱賰賷丕賳丕鬲 + 丕賱毓賱丕賯丕鬲 + 丕賱兀噩夭丕亍 + 賲賵噩賴 丕賱賳馗丕賲)",
+                                                "historyTurns":  "兀丿賵丕乇 丕賱鬲丕乇賷禺",
+                                                "historyTurnsTooltip":  "毓丿丿 丕賱丿賵乇丕鬲 丕賱賰丕賲賱丞 賱賱賲丨丕丿孬丞 (兀夭賵丕噩 丕賱賲爻鬲禺丿賲-丕賱賲爻丕毓丿) 丕賱鬲賷 賷噩亘 賲乇丕毓丕鬲賴丕 賮賷 爻賷丕賯 丕賱乇丿",
+                                                "historyTurnsPlaceholder":  "毓丿丿 丿賵乇丕鬲 丕賱鬲丕乇賷禺",
+                                                "onlyNeedContext":  "鬲丨鬲丕噩 賮賯胤 廿賱賶 丕賱爻賷丕賯",
+                                                "onlyNeedContextTooltip":  "廿匕丕 賰丕賳 氐丨賷丨賸丕貙 賷鬲賲 廿乇噩丕毓 丕賱爻賷丕賯 丕賱賲爻鬲乇噩毓 賮賯胤 丿賵賳 廿賳卮丕亍 乇丿",
+                                                "onlyNeedPrompt":  "鬲丨鬲丕噩 賮賯胤 廿賱賶 丕賱賲胤丕賱亘丞",
+                                                "onlyNeedPromptTooltip":  "廿匕丕 賰丕賳 氐丨賷丨賸丕貙 賷鬲賲 廿乇噩丕毓 丕賱賲胤丕賱亘丞 丕賱賲賵賱丿丞 賮賯胤 丿賵賳 廿賳鬲丕噩 乇丿",
+                                                "streamResponse":  "鬲丿賮賯 丕賱乇丿",
+                                                "streamResponseTooltip":  "廿匕丕 賰丕賳 氐丨賷丨賸丕貙 賷鬲賷丨 廿禺乇丕噩 丕賱鬲丿賮賯 賱賱乇丿賵丿 賮賷 丕賱賵賯鬲 丕賱賮毓賱賷",
+                                                "userPrompt":  "賲胤丕賱亘丞 廿禺乇丕噩 廿囟丕賮賷丞",
+                                                "userPromptTooltip":  "鬲賯丿賷賲 賲鬲胤賱亘丕鬲 丕爻鬲噩丕亘丞 廿囟丕賮賷丞 廿賱賶 賳賲賵匕噩 丕賱賱睾丞 丕賱賰亘賷乇 (睾賷乇 賲鬲毓賱賯丞 亘賲丨鬲賵賶 丕賱丕爻鬲毓賱丕賲貙 賮賯胤 賱賲毓丕賱噩丞 丕賱賲禺乇噩丕鬲).",
+                                                "userPromptPlaceholder":  "兀丿禺賱 賲胤丕賱亘丞 賲禺氐氐丞 (丕禺鬲賷丕乇賷)",
+                                                "enableRerank":  "鬲賲賰賷賳 廿毓丕丿丞 丕賱鬲乇鬲賷亘",
+                                                "enableRerankTooltip":  "鬲賲賰賷賳 廿毓丕丿丞 鬲乇鬲賷亘 兀噩夭丕亍 丕賱賳氐 丕賱賲爻鬲乇噩毓丞. 廿匕丕 賰丕賳 True 賵賱賰賳 賱賲 賷鬲賲 鬲賰賵賷賳 賳賲賵匕噩 廿毓丕丿丞 丕賱鬲乇鬲賷亘貙 賮爻賷鬲賲 廿氐丿丕乇 鬲丨匕賷乇. 丕賮鬲乇丕囟賷 True."
+                                            }
+                      },
+    "apiSite":  {
+                    "loading":  "噩丕乇賺 鬲丨賲賷賱 賵孬丕卅賯 賵丕噩賴丞 亘乇賲噩丞 丕賱鬲胤亘賷賯丕鬲..."
+                },
+    "apiKeyAlert":  {
+                        "title":  "賲賮鬲丕丨 賵丕噩賴丞 亘乇賲噩丞 丕賱鬲胤亘賷賯丕鬲 賲胤賱賵亘",
+                        "description":  "丕賱乇噩丕亍 廿丿禺丕賱 賲賮鬲丕丨 賵丕噩賴丞 亘乇賲噩丞 丕賱鬲胤亘賷賯丕鬲 賱賱賵氐賵賱 廿賱賶 丕賱禺丿賲丞",
+                        "placeholder":  "兀丿禺賱 賲賮鬲丕丨 賵丕噩賴丞 亘乇賲噩丞 丕賱鬲胤亘賷賯丕鬲",
+                        "save":  "丨賮馗"
+                    },
+    "pagination":  {
+                       "showing":  "毓乇囟 {{start}} 廿賱賶 {{end}} 賲賳 兀氐賱 {{total}} 廿丿禺丕賱丕鬲",
+                       "page":  "丕賱氐賮丨丞",
+                       "pageSize":  "丨噩賲 丕賱氐賮丨丞",
+                       "firstPage":  "丕賱氐賮丨丞 丕賱兀賵賱賶",
+                       "prevPage":  "丕賱氐賮丨丞 丕賱爻丕亘賯丞",
+                       "nextPage":  "丕賱氐賮丨丞 丕賱鬲丕賱賷丞",
+                       "lastPage":  "丕賱氐賮丨丞 丕賱兀禺賷乇丞"
+                   }
+}

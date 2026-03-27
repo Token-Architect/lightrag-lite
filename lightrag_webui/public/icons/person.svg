@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="256" fill="#3B82F6"/>
+  <!-- Person Icon -->
+  <circle cx="256" cy="180" r="70" fill="white"/>
+  <path d="M128 400C128 329.3 185.3 272 256 272C326.7 272 384 329.3 384 400V420H128V400Z" fill="white"/>
+</svg>

@@ -1,0 +1,465 @@
+{
+    "settings":  {
+                     "language":  "Langue",
+                     "theme":  "Th猫me",
+                     "light":  "Clair",
+                     "dark":  "Sombre",
+                     "system":  "Syst猫me"
+                 },
+    "header":  {
+                   "documents":  "Documents",
+                   "knowledgeGraph":  "Graphe de connaissances",
+                   "retrieval":  "R茅cup茅ration",
+                   "api":  "API",
+                   "projectRepository":  "R茅f茅rentiel du projet",
+                   "logout":  "D茅connexion",
+                   "frontendNeedsRebuild":  "Le frontend n茅cessite une reconstruction",
+                   "themeToggle":  {
+                                       "switchToLight":  "Passer au th猫me clair",
+                                       "switchToDark":  "Passer au th猫me sombre"
+                                   }
+               },
+    "login":  {
+                  "description":  "Veuillez entrer votre compte et mot de passe pour vous connecter au syst猫me",
+                  "username":  "Nom d\u0027utilisateur",
+                  "usernamePlaceholder":  "Veuillez saisir un nom d\u0027utilisateur",
+                  "password":  "Mot de passe",
+                  "passwordPlaceholder":  "Veuillez saisir un mot de passe",
+                  "loginButton":  "Connexion",
+                  "loggingIn":  "Connexion en cours...",
+                  "successMessage":  "Connexion r茅ussie",
+                  "errorEmptyFields":  "Veuillez saisir votre nom d\u0027utilisateur et mot de passe",
+                  "errorInvalidCredentials":  "脡chec de la connexion, veuillez v茅rifier le nom d\u0027utilisateur et le mot de passe",
+                  "authDisabled":  "L\u0027authentification est d茅sactiv茅e. Utilisation du mode sans connexion.",
+                  "guestMode":  "Mode sans connexion"
+              },
+    "common":  {
+                   "cancel":  "Annuler",
+                   "save":  "Sauvegarder",
+                   "saving":  "Sauvegarde en cours...",
+                   "saveFailed":  "脡chec de la sauvegarde"
+               },
+    "documentPanel":  {
+                          "clearDocuments":  {
+                                                 "button":  "Effacer",
+                                                 "tooltip":  "Effacer les documents",
+                                                 "title":  "Effacer les documents",
+                                                 "description":  "Cette action supprimera tous les documents du syst猫me",
+                                                 "warning":  "ATTENTION : Cette action supprimera d茅finitivement tous les documents et ne peut pas 锚tre annul茅e !",
+                                                 "confirm":  "Voulez-vous vraiment effacer tous les documents ?",
+                                                 "confirmPrompt":  "Tapez \u0027yes\u0027 pour confirmer cette action",
+                                                 "confirmPlaceholder":  "Tapez yes pour confirmer",
+                                                 "clearCache":  "Effacer le cache LLM",
+                                                 "confirmButton":  "OUI",
+                                                 "clearing":  "Effacement en cours...",
+                                                 "timeout":  "L\u0027op茅ration d\u0027effacement a expir茅, veuillez r茅essayer",
+                                                 "success":  "Documents effac茅s avec succ猫s",
+                                                 "cacheCleared":  "Cache effac茅 avec succ猫s",
+                                                 "cacheClearFailed":  "脡chec de l\u0027effacement du cache :\n{{error}}",
+                                                 "failed":  "脡chec de l\u0027effacement des documents :\n{{message}}",
+                                                 "error":  "脡chec de l\u0027effacement des documents :\n{{error}}"
+                                             },
+                          "deleteDocuments":  {
+                                                  "button":  "Supprimer",
+                                                  "tooltip":  "Supprimer les documents s茅lectionn茅s",
+                                                  "title":  "Supprimer les documents",
+                                                  "description":  "Cette action supprimera d茅finitivement les documents s茅lectionn茅s du syst猫me",
+                                                  "warning":  "ATTENTION : Cette action supprimera d茅finitivement les documents s茅lectionn茅s et ne peut pas 锚tre annul茅e !",
+                                                  "confirm":  "Voulez-vous vraiment supprimer {{count}} document(s) s茅lectionn茅(s) ?",
+                                                  "confirmPrompt":  "Tapez \u0027yes\u0027 pour confirmer cette action",
+                                                  "confirmPlaceholder":  "Tapez yes pour confirmer",
+                                                  "confirmButton":  "OUI",
+                                                  "deleteFileOption":  "Supprimer 茅galement les fichiers t茅l茅charg茅s",
+                                                  "deleteFileTooltip":  "Cochez cette option pour supprimer 茅galement les fichiers t茅l茅charg茅s correspondants sur le serveur",
+                                                  "deleteLLMCacheOption":  "Supprimer 茅galement le cache LLM d\u0027extraction",
+                                                  "success":  "Pipeline de suppression de documents d茅marr茅 avec succ猫s",
+                                                  "failed":  "脡chec de la suppression des documents :\n{{message}}",
+                                                  "error":  "脡chec de la suppression des documents :\n{{error}}",
+                                                  "busy":  "Le pipeline est occup茅, veuillez r茅essayer plus tard",
+                                                  "notAllowed":  "Aucune autorisation pour effectuer cette op茅ration"
+                                              },
+                          "selectDocuments":  {
+                                                  "selectCurrentPage":  "S茅lectionner la page actuelle ({{count}})",
+                                                  "deselectAll":  "Tout d茅s茅lectionner ({{count}})"
+                                              },
+                          "uploadDocuments":  {
+                                                  "button":  "T茅l茅charger",
+                                                  "tooltip":  "T茅l茅charger des documents",
+                                                  "title":  "T茅l茅charger des documents",
+                                                  "description":  "Glissez-d茅posez vos documents ici ou cliquez pour parcourir.",
+                                                  "single":  {
+                                                                 "uploading":  "T茅l茅chargement de {{name}} : {{percent}}%",
+                                                                 "success":  "Succ猫s du t茅l茅chargement :\n{{name}} t茅l茅charg茅 avec succ猫s",
+                                                                 "failed":  "脡chec du t茅l茅chargement :\n{{name}}\n{{message}}",
+                                                                 "error":  "脡chec du t茅l茅chargement :\n{{name}}\n{{error}}"
+                                                             },
+                                                  "batch":  {
+                                                                "uploading":  "T茅l茅chargement des fichiers...",
+                                                                "success":  "Fichiers t茅l茅charg茅s avec succ猫s",
+                                                                "error":  "Certains fichiers n\u0027ont pas pu 锚tre t茅l茅charg茅s"
+                                                            },
+                                                  "generalError":  "脡chec du t茅l茅chargement\n{{error}}",
+                                                  "fileTypes":  "Types pris en charge : TXT, MD, DOCX, PDF, PPTX, XLSX, RTF, ODT, EPUB, HTML, HTM, TEX, JSON, XML, YAML, YML, CSV, LOG, CONF, INI, PROPERTIES, SQL, BAT, SH, C, CPP, PY, JAVA, JS, TS, SWIFT, GO, RB, PHP, CSS, SCSS, LESS",
+                                                  "fileUploader":  {
+                                                                       "singleFileLimit":  "Impossible de t茅l茅charger plus d\u0027un fichier 脿 la fois",
+                                                                       "maxFilesLimit":  "Impossible de t茅l茅charger plus de {{count}} fichiers",
+                                                                       "fileRejected":  "Le fichier {{name}} a 茅t茅 rejet茅",
+                                                                       "unsupportedType":  "Type de fichier non pris en charge",
+                                                                       "fileTooLarge":  "Fichier trop volumineux, taille maximale {{maxSize}}",
+                                                                       "dropHere":  "D茅posez les fichiers ici",
+                                                                       "dragAndDrop":  "Glissez et d茅posez les fichiers ici, ou cliquez pour s茅lectionner",
+                                                                       "removeFile":  "Supprimer le fichier",
+                                                                       "uploadDescription":  "Vous pouvez t茅l茅charger {{isMultiple ? \u0027plusieurs\u0027 : count}} fichiers (jusqu\u0027脿 {{maxSize}} chacun)",
+                                                                       "duplicateFile":  "Le nom du fichier existe d茅j脿 dans le cache du serveur"
+                                                                   }
+                                              },
+                          "documentManager":  {
+                                                  "title":  "Gestion des documents",
+                                                  "scanButton":  "Scanner/Retraiter",
+                                                  "scanTooltip":  "Scanner et traiter les documents dans le dossier d\u0027entr茅e, et retraiter 茅galement tous les documents 茅chou茅s",
+                                                  "refreshTooltip":  "R茅initialiser la liste des documents",
+                                                  "pipelineStatusButton":  "Pipeline",
+                                                  "pipelineStatusTooltip":  "Voir l\u0027茅tat du pipeline de traitement des documents",
+                                                  "uploadedTitle":  "Documents t茅l茅charg茅s",
+                                                  "uploadedDescription":  "Liste des documents t茅l茅charg茅s et leurs statuts.",
+                                                  "emptyTitle":  "Aucun document",
+                                                  "emptyDescription":  "Il n\u0027y a pas encore de documents t茅l茅charg茅s.",
+                                                  "columns":  {
+                                                                  "id":  "ID",
+                                                                  "fileName":  "Nom du fichier",
+                                                                  "summary":  "R茅sum茅",
+                                                                  "status":  "Statut",
+                                                                  "length":  "Longueur",
+                                                                  "chunks":  "Fragments",
+                                                                  "created":  "Cr茅茅",
+                                                                  "updated":  "Mis 脿 jour",
+                                                                  "metadata":  "M茅tadonn茅es",
+                                                                  "select":  "S茅lectionner"
+                                                              },
+                                                  "status":  {
+                                                                 "all":  "Tous",
+                                                                 "completed":  "Termin茅",
+                                                                 "preprocessed":  "Pr茅trait茅",
+                                                                 "processing":  "En traitement",
+                                                                 "pending":  "En attente",
+                                                                 "failed":  "脡chou茅"
+                                                             },
+                                                  "errors":  {
+                                                                 "loadFailed":  "脡chec du chargement des documents\n{{error}}",
+                                                                 "scanFailed":  "脡chec de la num茅risation des documents\n{{error}}",
+                                                                 "scanProgressFailed":  "脡chec de l\u0027obtention de la progression de la num茅risation\n{{error}}"
+                                                             },
+                                                  "fileNameLabel":  "Nom du fichier",
+                                                  "showButton":  "Afficher",
+                                                  "hideButton":  "Masquer",
+                                                  "showFileNameTooltip":  "Afficher le nom du fichier",
+                                                  "hideFileNameTooltip":  "Masquer le nom du fichier"
+                                              },
+                          "pipelineStatus":  {
+                                                 "title":  "脡tat du Pipeline",
+                                                 "busy":  "Pipeline Occup茅",
+                                                 "requestPending":  "Demande en Attente",
+                                                 "cancellationRequested":  "Annulation Demand茅e",
+                                                 "jobName":  "Nom du Travail",
+                                                 "startTime":  "Heure de D茅but",
+                                                 "progress":  "Progr猫s",
+                                                 "unit":  "Lot",
+                                                 "pipelineMessages":  "Messages de Pipeline",
+                                                 "cancelButton":  "Annuler",
+                                                 "cancelTooltip":  "Annuler le traitement du pipeline",
+                                                 "cancelConfirmTitle":  "Confirmer l\u0027Annulation du Pipeline",
+                                                 "cancelConfirmDescription":  "Cette action interrompra le traitement du pipeline en cours. 脢tes-vous s没r de vouloir continuer ?",
+                                                 "cancelConfirmButton":  "Confirmer l\u0027Annulation",
+                                                 "cancelInProgress":  "Annulation en cours...",
+                                                 "pipelineNotRunning":  "Le pipeline n\u0027est pas en cours d\u0027ex茅cution",
+                                                 "cancelSuccess":  "Annulation du pipeline demand茅e",
+                                                 "cancelFailed":  "脡chec de l\u0027annulation du pipeline\n{{error}}",
+                                                 "cancelNotBusy":  "Le pipeline n\u0027est pas en cours d\u0027ex茅cution, pas besoin d\u0027annuler",
+                                                 "errors":  {
+                                                                "fetchFailed":  "脡chec de la r茅cup茅ration de l\u0027茅tat du pipeline\n{{error}}"
+                                                            }
+                                             }
+                      },
+    "graphPanel":  {
+                       "dataIsTruncated":  "Les donn茅es du graphe sont tronqu茅es au nombre maximum de n艙uds",
+                       "statusDialog":  {
+                                            "title":  "Paramètres du serveur",
+                                            "description":  "Afficher l\u0027茅tat actuel du syst猫me et les informations de connexion"
+                                        },
+                       "legend":  "L茅gende",
+                       "nodeTypes":  {
+                                         "person":  "Personne",
+                                         "category":  "Cat茅gorie",
+                                         "geo":  "G茅ographique",
+                                         "location":  "Emplacement",
+                                         "organization":  "Organisation",
+                                         "event":  "脡v茅nement",
+                                         "equipment":  "脡quipement",
+                                         "weapon":  "Arme",
+                                         "animal":  "Animal",
+                                         "unknown":  "Inconnu",
+                                         "object":  "Objet",
+                                         "group":  "Groupe",
+                                         "technology":  "Technologie",
+                                         "product":  "Produit",
+                                         "document":  "Document",
+                                         "content":  "Contenu",
+                                         "data":  "Donn茅es",
+                                         "artifact":  "Artefact",
+                                         "concept":  "Concept",
+                                         "naturalobject":  "Objet naturel",
+                                         "method":  "M茅thode",
+                                         "creature":  "Cr茅ature",
+                                         "plant":  "Plante",
+                                         "disease":  "Maladie",
+                                         "drug":  "M茅dicament",
+                                         "food":  "Nourriture",
+                                         "other":  "Autre"
+                                     },
+                       "sideBar":  {
+                                       "settings":  {
+                                                        "settings":  "Param猫tres",
+                                                        "healthCheck":  "V茅rification de l\u0027茅tat",
+                                                        "showPropertyPanel":  "Afficher le panneau des propri茅t茅s",
+                                                        "showSearchBar":  "Afficher la barre de recherche",
+                                                        "showNodeLabel":  "Afficher l\u0027茅tiquette du n艙ud",
+                                                        "nodeDraggable":  "N艙ud d茅pla莽able",
+                                                        "showEdgeLabel":  "Afficher l\u0027茅tiquette de l\u0027ar锚te",
+                                                        "hideUnselectedEdges":  "Masquer les ar锚tes non s茅lectionn茅es",
+                                                        "edgeEvents":  "脡v茅nements des ar锚tes",
+                                                        "maxQueryDepth":  "Profondeur maximale de la requ锚te",
+                                                        "maxNodes":  "Nombre maximum de n艙uds",
+                                                        "maxLayoutIterations":  "It茅rations maximales de mise en page",
+                                                        "resetToDefault":  "R茅initialiser par d茅faut",
+                                                        "edgeSizeRange":  "Plage de taille des ar锚tes",
+                                                        "depth":  "D",
+                                                        "max":  "Max",
+                                                        "degree":  "Degr茅",
+                                                        "apiKey":  "Cl茅 API",
+                                                        "enterYourAPIkey":  "Entrez votre cl茅 API",
+                                                        "save":  "Sauvegarder",
+                                                        "refreshLayout":  "Actualiser la mise en page"
+                                                    },
+                                       "zoomControl":  {
+                                                           "zoomIn":  "Zoom avant",
+                                                           "zoomOut":  "Zoom arri猫re",
+                                                           "resetZoom":  "R茅initialiser le zoom",
+                                                           "rotateCamera":  "Rotation horaire",
+                                                           "rotateCameraCounterClockwise":  "Rotation antihoraire"
+                                                       },
+                                       "layoutsControl":  {
+                                                              "startAnimation":  "D茅marrer l\u0027animation de mise en page",
+                                                              "stopAnimation":  "Arr锚ter l\u0027animation de mise en page",
+                                                              "layoutGraph":  "Mettre en page le graphe",
+                                                              "layouts":  {
+                                                                              "Circular":  "Circulaire",
+                                                                              "Circlepack":  "Paquet circulaire",
+                                                                              "Random":  "Al茅atoire",
+                                                                              "Noverlaps":  "Sans chevauchement",
+                                                                              "Force Directed":  "Dirig茅 par la force",
+                                                                              "Force Atlas":  "Atlas de force"
+                                                                          }
+                                                          },
+                                       "fullScreenControl":  {
+                                                                 "fullScreen":  "Plein 茅cran",
+                                                                 "windowed":  "Fen锚tr茅"
+                                                             },
+                                       "legendControl":  {
+                                                             "toggleLegend":  "Basculer la l茅gende"
+                                                         }
+                                   },
+                       "statusIndicator":  {
+                                               "connected":  "Connect茅",
+                                               "disconnected":  "D茅connect茅"
+                                           },
+                       "statusCard":  {
+                                          "unavailable":  "Informations sur l\u0027茅tat indisponibles",
+                                          "serverInfo":  "Informations du serveur",
+                                          "workingDirectory":  "R茅pertoire de travail",
+                                          "inputDirectory":  "R茅pertoire d\u0027entr茅e",
+                                          "maxParallelInsert":  "Traitement simultan茅 des documents",
+                                          "summarySettings":  "Param猫tres de r茅sum茅",
+                                          "llmConfig":  "Configuration du mod猫le de langage",
+                                          "llmBinding":  "Liaison du mod猫le de langage",
+                                          "llmBindingHost":  "Point de terminaison LLM",
+                                          "llmModel":  "Mod猫le de langage",
+                                          "embeddingConfig":  "Configuration d\u0027incorporation",
+                                          "embeddingBinding":  "Liaison d\u0027incorporation",
+                                          "embeddingBindingHost":  "Point de terminaison d\u0027incorporation",
+                                          "embeddingModel":  "Mod猫le d\u0027incorporation",
+                                          "storageConfig":  "Configuration de stockage",
+                                          "kvStorage":  "Stockage cl茅-valeur",
+                                          "docStatusStorage":  "Stockage de l\u0027茅tat des documents",
+                                          "graphStorage":  "Stockage du graphe",
+                                          "vectorStorage":  "Stockage vectoriel",
+                                          "workspace":  "Espace de travail",
+                                          "maxGraphNodes":  "Nombre maximum de n艙uds du graphe",
+                                          "rerankerConfig":  "Configuration du reclassement",
+                                          "rerankerBindingHost":  "Point de terminaison de reclassement",
+                                          "rerankerModel":  "Mod猫le de reclassement",
+                                          "lockStatus":  "脡tat des verrous",
+                                          "threshold":  "Seuil"
+                                      },
+                       "propertiesView":  {
+                                              "editProperty":  "Modifier {{property}}",
+                                              "editPropertyDescription":  "Modifiez la valeur de la propri茅t茅 dans la zone de texte ci-dessous.",
+                                              "errors":  {
+                                                             "duplicateName":  "Le nom du n艙ud existe d茅j脿",
+                                                             "updateFailed":  "脡chec de la mise 脿 jour du n艙ud",
+                                                             "tryAgainLater":  "Veuillez r茅essayer plus tard",
+                                                             "updateSuccessButMergeFailed":  "Propri茅t茅s mises 脿 jour, mais la fusion a 茅chou茅 : {{error}}",
+                                                             "mergeFailed":  "脡chec de la fusion : {{error}}"
+                                                         },
+                                              "success":  {
+                                                              "entityUpdated":  "N艙ud mis 脿 jour avec succ猫s",
+                                                              "relationUpdated":  "Relation mise 脿 jour avec succ猫s",
+                                                              "entityMerged":  "Fusion des n艙uds r茅ussie"
+                                                          },
+                                              "mergeOptionLabel":  "Fusionner automatiquement en cas de nom dupliqu茅",
+                                              "mergeOptionDescription":  "Si activ茅, renommer vers un nom existant fusionnera automatiquement ce n艙ud avec celui-ci au lieu d\u0027茅chouer.",
+                                              "mergeDialog":  {
+                                                                  "title":  "N艙ud fusionn茅",
+                                                                  "description":  "\"{{source}}\" a 茅t茅 fusionn茅 dans \"{{target}}\".",
+                                                                  "refreshHint":  "Actualisez le graphe pour charger la structure la plus r茅cente.",
+                                                                  "keepCurrentStart":  "Actualiser en conservant le n艙ud de d茅part actuel",
+                                                                  "useMergedStart":  "Actualiser en utilisant le n艙ud fusionn茅",
+                                                                  "refreshing":  "Actualisation du graphe..."
+                                                              },
+                                              "node":  {
+                                                           "title":  "N艙ud",
+                                                           "id":  "ID",
+                                                           "labels":  "脡tiquettes",
+                                                           "degree":  "Degr茅",
+                                                           "properties":  "Propri茅t茅s",
+                                                           "relationships":  "Relations(dans le sous-graphe)",
+                                                           "expandNode":  "D茅velopper le n艙ud",
+                                                           "pruneNode":  "脡laguer le n艙ud",
+                                                           "deleteAllNodesError":  "Refus de supprimer tous les n艙uds du graphe",
+                                                           "nodesRemoved":  "{{count}} n艙uds supprim茅s, y compris les n艙uds orphelins",
+                                                           "noNewNodes":  "Aucun n艙ud d茅veloppable trouv茅",
+                                                           "propertyNames":  {
+                                                                                 "description":  "Description",
+                                                                                 "entity_id":  "Nom",
+                                                                                 "entity_type":  "Type",
+                                                                                 "source_id":  "C-ID",
+                                                                                 "Neighbour":  "Voisin",
+                                                                                 "file_path":  "File",
+                                                                                 "keywords":  "Keys",
+                                                                                 "weight":  "Poids"
+                                                                             }
+                                                       },
+                                              "edge":  {
+                                                           "title":  "Relation",
+                                                           "id":  "ID",
+                                                           "type":  "Type",
+                                                           "source":  "Source",
+                                                           "target":  "Cible",
+                                                           "properties":  "Propri茅t茅s"
+                                                       }
+                                          },
+                       "search":  {
+                                      "placeholder":  "Rechercher des n艙uds dans la page...",
+                                      "message":  "Et {{count}} autres"
+                                  },
+                       "graphLabels":  {
+                                           "selectTooltip":  "Obtenir le sous-graphe d\u0027un n艙ud (茅tiquette)",
+                                           "noLabels":  "Aucun n艙ud correspondant trouv茅",
+                                           "label":  "Rechercher le nom du n艙ud",
+                                           "placeholder":  "Rechercher le nom du n艙ud...",
+                                           "andOthers":  "Et {{count}} autres",
+                                           "refreshGlobalTooltip":  "Actualiser les donn茅es du graphe global et r茅initialiser l\u0027historique de recherche",
+                                           "refreshCurrentLabelTooltip":  "Actualiser les donn茅es du graphe de la page actuelle",
+                                           "refreshingTooltip":  "Actualisation des donn茅es en cours..."
+                                       },
+                       "emptyGraph":  "Vide (Essayez de recharger)"
+                   },
+    "retrievePanel":  {
+                          "chatMessage":  {
+                                              "copyTooltip":  "Copier dans le presse-papiers",
+                                              "copyError":  "脡chec de la copie du texte dans le presse-papiers",
+                                              "copyEmpty":  "Aucun contenu 脿 copier",
+                                              "copySuccess":  "Contenu copi茅 dans le presse-papiers",
+                                              "copySuccessLegacy":  "Contenu copi茅 (m茅thode h茅rit茅e)",
+                                              "copySuccessManual":  "Contenu copi茅 (m茅thode manuelle)",
+                                              "copyFailed":  "脡chec de la copie du contenu",
+                                              "copyManualInstruction":  "Veuillez s茅lectionner et copier le texte manuellement",
+                                              "thinking":  "R茅flexion en cours...",
+                                              "thinkingTime":  "Temps de r茅flexion {{time}}s",
+                                              "thinkingInProgress":  "R茅flexion en cours..."
+                                          },
+                          "retrieval":  {
+                                            "startPrompt":  "D茅marrez une r茅cup茅ration en tapant votre requ锚te ci-dessous",
+                                            "clear":  "Effacer",
+                                            "send":  "Envoyer",
+                                            "placeholder":  "Tapez votre requ锚te (Pr茅fixe de requ锚te : /\u003cQuery Mode\u003e)",
+                                            "error":  "Erreur : 脡chec de l\u0027obtention de la r茅ponse",
+                                            "queryModeError":  "Seuls les modes de requ锚te suivants sont pris en charge : {{modes}}",
+                                            "queryModePrefixInvalid":  "Pr茅fixe de mode de requ锚te invalide. Utilisez : /\u003cmode\u003e [espace] votre requ锚te"
+                                        },
+                          "querySettings":  {
+                                                "parametersTitle":  "Param猫tres",
+                                                "parametersDescription":  "Configurez vos param猫tres de requ锚te",
+                                                "queryMode":  "Mode de requ锚te",
+                                                "queryModeTooltip":  "S茅lectionnez la strat茅gie de r茅cup茅ration :\n鈥?Na茂f : R茅cup茅ration vectorielle traditionnelle par blocs de texte\n鈥?Local : Ax茅 sur la r茅cup茅ration d\u0027entit茅s\n鈥?Global : Ax茅 sur la r茅cup茅ration de relations\n鈥?Hybride : Local+Global\n鈥?Mixte : Local+Global+Na茂f\n鈥?Bypass : Ignorer la r茅cup茅ration, envoyer l\u0027historique de conversation et la question actuelle au LLM",
+                                                "queryModeOptions":  {
+                                                                         "naive":  "Na茂f",
+                                                                         "local":  "Local",
+                                                                         "global":  "Global",
+                                                                         "hybrid":  "Hybride",
+                                                                         "mix":  "Mixte",
+                                                                         "bypass":  "Bypass"
+                                                                     },
+                                                "responseFormat":  "Format de r茅ponse",
+                                                "responseFormatTooltip":  "D茅finit le format de la r茅ponse. Exemples :\n鈥?Plusieurs paragraphes\n鈥?Paragraphe unique\n鈥?Points 脿 puces",
+                                                "responseFormatOptions":  {
+                                                                              "multipleParagraphs":  "Plusieurs paragraphes",
+                                                                              "singleParagraph":  "Paragraphe unique",
+                                                                              "bulletPoints":  "Points 脿 puces"
+                                                                          },
+                                                "topK":  "KG Top K",
+                                                "topKTooltip":  "Nombre d\u0027entit茅s et de relations 脿 r茅cup茅rer. Applicable pour les modes non-na茂fs.",
+                                                "topKPlaceholder":  "Entrez la valeur top_k",
+                                                "chunkTopK":  "Top K des Chunks",
+                                                "chunkTopKTooltip":  "Nombre de morceaux de texte 脿 r茅cup茅rer, applicable 脿 tous les modes.",
+                                                "chunkTopKPlaceholder":  "Entrez la valeur chunk_top_k",
+                                                "maxEntityTokens":  "Limite de jetons d\u0027entit茅",
+                                                "maxEntityTokensTooltip":  "Nombre maximum de jetons allou茅s au contexte d\u0027entit茅 dans le syst猫me de contr么le de jetons unifi茅",
+                                                "maxRelationTokens":  "Limite de jetons de relation",
+                                                "maxRelationTokensTooltip":  "Nombre maximum de jetons allou茅s au contexte de relation dans le syst猫me de contr么le de jetons unifi茅",
+                                                "maxTotalTokens":  "Limite totale de jetons",
+                                                "maxTotalTokensTooltip":  "Budget total maximum de jetons pour l\u0027ensemble du contexte de requ锚te (entit茅s + relations + blocs + prompt syst猫me)",
+                                                "historyTurns":  "Tours d\u0027historique",
+                                                "historyTurnsTooltip":  "Nombre de tours complets de conversation (paires utilisateur-assistant) 脿 prendre en compte dans le contexte de la r茅ponse",
+                                                "historyTurnsPlaceholder":  "Nombre de tours d\u0027historique",
+                                                "onlyNeedContext":  "Besoin uniquement du contexte",
+                                                "onlyNeedContextTooltip":  "Si vrai, ne renvoie que le contexte r茅cup茅r茅 sans g茅n茅rer de r茅ponse",
+                                                "onlyNeedPrompt":  "Besoin uniquement de l\u0027invite",
+                                                "onlyNeedPromptTooltip":  "Si vrai, ne renvoie que l\u0027invite g茅n茅r茅e sans produire de r茅ponse",
+                                                "streamResponse":  "R茅ponse en flux",
+                                                "streamResponseTooltip":  "Si vrai, active la sortie en flux pour des r茅ponses en temps r茅el",
+                                                "userPrompt":  "Invite de sortie suppl茅mentaire",
+                                                "userPromptTooltip":  "Fournir des exigences de r茅ponse suppl茅mentaires au LLM (sans rapport avec le contenu de la requ锚te, uniquement pour le traitement de sortie).",
+                                                "userPromptPlaceholder":  "Entrez une invite personnalis茅e (facultatif)",
+                                                "enableRerank":  "Activer le Reclassement",
+                                                "enableRerankTooltip":  "Active le reclassement pour les fragments de texte r茅cup茅r茅s. Si True mais qu\u0027aucun mod猫le de reclassement n\u0027est configur茅, un avertissement sera 茅mis. True par d茅faut."
+                                            }
+                      },
+    "apiSite":  {
+                    "loading":  "Chargement de la documentation de l\u0027API..."
+                },
+    "apiKeyAlert":  {
+                        "title":  "Cl茅 API requise",
+                        "description":  "Veuillez entrer votre cl茅 API pour acc茅der au service",
+                        "placeholder":  "Entrez votre cl茅 API",
+                        "save":  "Sauvegarder"
+                    },
+    "pagination":  {
+                       "showing":  "Affichage de {{start}} 脿 {{end}} sur {{total}} entr茅es",
+                       "page":  "Page",
+                       "pageSize":  "Taille de la page",
+                       "firstPage":  "Premi猫re page",
+                       "prevPage":  "Page pr茅c茅dente",
+                       "nextPage":  "Page suivante",
+                       "lastPage":  "Derni猫re page"
+                   }
+}

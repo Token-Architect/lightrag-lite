@@ -1,0 +1,37 @@
+﻿services:
+  kg:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        # Frontend compile-time backend base URL.
+        # Example: VITE_BACKEND_URL=https://kg.example.com
+        # Leave empty to use same-origin at runtime.
+        VITE_BACKEND_URL: ${VITE_BACKEND_URL:-}
+    image: crpi-o7ze6wmjtocjdgzm.cn-chengdu.personal.cr.aliyuncs.com/string-x/gaotou-kg:v1.0
+    container_name: kg
+    ports:
+      - "9621:9621"
+    env_file:
+      - .env
+    environment:
+      HOST: 0.0.0.0
+      PORT: 9621
+      INPUT_DIR: /app/inputs
+      WORKING_DIR: /app/rag_storage
+      # If you run local model servers on your host machine, use host.docker.internal
+      # LLM_BINDING_HOST: http://host.docker.internal:11434
+      # EMBEDDING_BINDING_HOST: http://host.docker.internal:11434
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./inputs:/app/inputs
+      - ./rag_storage:/app/rag_storage
+      - ./lightrag.log:/app/lightrag.log
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:9621/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 30s

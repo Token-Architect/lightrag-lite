@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="256" fill="#22C55E"/>
+  <!-- Event/Calendar Icon -->
+  <rect x="128" y="160" width="256" height="224" rx="32" fill="white"/>
+  <path d="M176 128V192" stroke="#22C55E" stroke-width="32" stroke-linecap="round"/>
+  <path d="M336 128V192" stroke="#22C55E" stroke-width="32" stroke-linecap="round"/>
+  <line x1="128" y1="224" x2="384" y2="224" stroke="#22C55E" stroke-width="16"/>
+  <circle cx="200" cy="288" r="16" fill="#22C55E"/>
+  <circle cx="256" cy="288" r="16" fill="#22C55E"/>
+  <circle cx="312" cy="288" r="16" fill="#22C55E"/>
+  <circle cx="200" cy="336" r="16" fill="#22C55E"/>
+  <circle cx="256" cy="336" r="16" fill="#22C55E"/>
+  <circle cx="312" cy="336" r="16" fill="#22C55E"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="256" fill="#6B7280"/>
+  <!-- Question Mark Icon -->
+  <path d="M256 160C229.5 160 208 181.5 208 208H160C160 155 203 112 256 112C309 112 352 155 352 208C352 231.4 343.8 252.6 330.1 268.3C317.8 282.4 304 293.8 304 320V336H256V320C256 283.2 277.3 266.4 294.1 247.3C301.7 238.6 304 227.6 304 208C304 181.5 282.5 160 256 160Z" fill="white"/>
+  <rect x="232" y="368" width="48" height="48" rx="8" fill="white"/>
+</svg>

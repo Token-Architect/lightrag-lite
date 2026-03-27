@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="256" fill="#EF4444"/>
+  <!-- Location Pin -->
+  <path d="M256 112C203 112 160 155 160 208C160 272 256 384 256 384C256 384 352 272 352 208C352 155 309 112 256 112Z" fill="white"/>
+  <circle cx="256" cy="208" r="32" fill="#EF4444"/>
+</svg>

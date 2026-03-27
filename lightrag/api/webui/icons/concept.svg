@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="256" fill="#A855F7"/>
+  <!-- Concept/Lightbulb Icon -->
+  <path d="M256 128C211.8 128 176 163.8 176 208C176 236.4 191.6 261.2 214.7 275.5L224 281.3V336H288V281.3L297.3 275.5C320.4 261.2 336 236.4 336 208C336 163.8 300.2 128 256 128Z" fill="white"/>
+  <rect x="232" y="352" width="48" height="16" rx="4" fill="white"/>
+  <rect x="240" y="376" width="32" height="8" rx="4" fill="white"/>
+  <path d="M256 128V112" stroke="#A855F7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M336 208H352" stroke="#A855F7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M176 208H160" stroke="#A855F7" stroke-width="8" stroke-linecap="round"/>
+</svg>

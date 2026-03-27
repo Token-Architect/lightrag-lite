@@ -1,0 +1,476 @@
+{
+    "settings": {
+        "language": "语言",
+        "theme": "主题",
+        "light": "浅色",
+        "dark": "深色",
+        "system": "系统"
+    },
+    "header": {
+        "documents": "文档",
+        "knowledgeGraph": "知识图谱",
+        "retrieval": "检索",
+        "api": "API",
+        "projectRepository": "项目仓库",
+        "logout": "退出登录",
+        "frontendNeedsRebuild": "前端需要重启/重建",
+        "themeToggle": {
+            "switchToLight": "切换到浅色主题",
+            "switchToDark": "切换到深色主题"
+        }
+    },
+    "login": {
+        "description": "请输入账号和密码登录系统",
+        "username": "用户名",
+        "usernamePlaceholder": "请输入用户名",
+        "password": "密码",
+        "passwordPlaceholder": "请输入密码",
+        "loginButton": "登录",
+        "loggingIn": "登录中...",
+        "successMessage": "登录成功",
+        "errorEmptyFields": "请输入用户名和密码",
+        "errorInvalidCredentials": "登录失败，请检查用户名和密码",
+        "authDisabled": "鉴权已关闭，当前为免登录模式。",
+        "guestMode": "免登录"
+    },
+    "common": {
+        "cancel": "取消",
+        "save": "保存",
+        "saving": "保存中...",
+        "saveFailed": "保存失败",
+        "error": "发生错误",
+        "resetAndRetry": "重置并重试"
+    },
+    "documentPanel": {
+        "clearDocuments": {
+            "button": "清空",
+            "tooltip": "清空文档",
+            "title": "清空文档",
+            "description": "将从系统中移除全部文档",
+            "warning": "警告：该操作会永久删除所有文档且不可恢复。",
+            "confirm": "确定要清空所有文档吗？",
+            "confirmPrompt": "请输入 yes 进行确认",
+            "confirmPlaceholder": "输入 yes 确认",
+            "clearCache": "同时清理 LLM 缓存",
+            "confirmButton": "确认清空",
+            "clearing": "清空中...",
+            "timeout": "清空操作超时，请重试",
+            "success": "文档清空成功",
+            "cacheCleared": "缓存清理成功",
+            "cacheClearFailed": "缓存清理失败：\n{{error}}",
+            "failed": "清空文档失败：\n{{message}}",
+            "error": "清空文档失败：\n{{error}}"
+        },
+        "deleteDocuments": {
+            "button": "删除",
+            "tooltip": "删除选中文档",
+            "title": "删除文档",
+            "description": "将永久删除所选文档",
+            "warning": "警告：该操作会永久删除所选文档且不可恢复。",
+            "confirm": "确定要删除 {{count}} 个文档吗？",
+            "confirmPrompt": "请输入 yes 进行确认",
+            "confirmPlaceholder": "输入 yes 确认",
+            "confirmButton": "确认删除",
+            "deleteFileOption": "同时删除上传的源文件",
+            "deleteFileTooltip": "勾选后会同时删除服务器上的对应源文件",
+            "deleteLLMCacheOption": "同时删除提取后的 LLM 缓存",
+            "success": "文档删除任务已启动",
+            "failed": "删除文档失败：\n{{message}}",
+            "error": "删除文档失败：\n{{error}}",
+            "busy": "流水线忙碌中，请稍后重试",
+            "notAllowed": "没有权限执行该操作",
+            "deleting": "删除中..."
+        },
+        "selectDocuments": {
+            "selectCurrentPage": "选中当前页（{{count}}）",
+            "deselectAll": "取消全选（{{count}}）"
+        },
+        "uploadDocuments": {
+            "button": "上传",
+            "tooltip": "上传文档",
+            "title": "上传文档",
+            "description": "拖拽文件到此处，或点击选择文件。",
+            "single": {
+                "uploading": "上传 {{name}}：{{percent}}%",
+                "success": "上传成功：\n{{name}}",
+                "failed": "上传失败：\n{{name}}\n{{message}}",
+                "error": "上传失败：\n{{name}}\n{{error}}"
+            },
+            "batch": {
+                "uploading": "文件上传中...",
+                "success": "文件上传成功",
+                "error": "部分文件上传失败"
+            },
+            "generalError": "上传失败\n{{error}}",
+            "fileTypes": "支持类型：TXT、MD、DOCX、PDF、PPTX、XLSX、PNG、JPG、JPEG、WEBP、BMP、GIF、TIF、TIFF、RTF、ODT、EPUB、HTML、HTM、TEX、JSON、XML、YAML、YML、CSV、LOG、CONF、INI、PROPERTIES、SQL、BAT、SH、C、CPP、PY、JAVA、JS、TS、SWIFT、GO、RB、PHP、CSS、SCSS、LESS",
+            "fileUploader": {
+                "singleFileLimit": "一次只能上传 1 个文件",
+                "maxFilesLimit": "最多只能上传 {{count}} 个文件",
+                "fileRejected": "文件 {{name}} 被拒绝",
+                "unsupportedType": "不支持的文件类型",
+                "fileTooLarge": "文件过大，最大允许 {{maxSize}}",
+                "dropHere": "将文件拖拽到这里",
+                "dragAndDrop": "拖拽文件到此处，或点击选择文件",
+                "removeFile": "移除文件",
+                "uploadDescription": "可上传 {{isMultiple ? '多个' : count}} 个文件（单个不超过 {{maxSize}}）",
+                "duplicateFile": "服务器缓存中已存在同名文件",
+                "invalidFileName": "文件名不合法：{{name}}"
+            }
+        },
+        "documentManager": {
+            "title": "文档管理",
+            "scanButton": "扫描/重试",
+            "scanTooltip": "扫描输入目录并处理文档，同时重试失败文档",
+            "refreshTooltip": "刷新文档列表",
+            "pipelineStatusButton": "流水线",
+            "pipelineStatusTooltip": "查看文档处理流水线状态",
+            "uploadedTitle": "已上传文档",
+            "uploadedDescription": "展示文档及其处理状态。",
+            "emptyTitle": "暂无文档",
+            "emptyDescription": "当前还没有上传文档。",
+            "columns": {
+                "id": "ID",
+                "fileName": "文件名",
+                "summary": "摘要",
+                "status": "状态",
+                "length": "长度",
+                "chunks": "分块数",
+                "created": "创建时间",
+                "updated": "更新时间",
+                "metadata": "元数据",
+                "select": "选择"
+            },
+            "status": {
+                "all": "全部",
+                "completed": "完成",
+                "preprocessed": "预处理",
+                "processing": "处理中",
+                "pending": "待处理",
+                "failed": "失败"
+            },
+            "errors": {
+                "loadFailed": "加载文档失败\n{{error}}",
+                "scanFailed": "扫描文档失败\n{{error}}",
+                "scanProgressFailed": "获取扫描进度失败\n{{error}}"
+            },
+            "fileNameLabel": "文件名",
+            "showButton": "显示",
+            "hideButton": "隐藏",
+            "showFileNameTooltip": "显示文件名",
+            "hideFileNameTooltip": "隐藏文件名"
+        },
+        "pipelineStatus": {
+            "title": "流水线状态",
+            "busy": "流水线忙碌",
+            "requestPending": "请求挂起中",
+            "cancellationRequested": "已请求取消",
+            "jobName": "任务名称",
+            "startTime": "开始时间",
+            "progress": "进度",
+            "unit": "批次",
+            "pipelineMessages": "流水线消息",
+            "cancelButton": "取消任务",
+            "cancelTooltip": "取消当前流水线处理",
+            "cancelConfirmTitle": "确认取消流水线",
+            "cancelConfirmDescription": "该操作会中断当前流水线处理，是否继续？",
+            "cancelConfirmButton": "确认取消",
+            "cancelInProgress": "取消中...",
+            "pipelineNotRunning": "流水线未运行",
+            "cancelSuccess": "已提交取消请求",
+            "cancelFailed": "取消失败\n{{error}}",
+            "cancelNotBusy": "流水线未运行，无需取消",
+            "errors": {
+                "fetchFailed": "获取流水线状态失败\n{{error}}"
+            }
+        }
+    },
+    "graphPanel": {
+        "dataIsTruncated": "图数据已按“最大节点数”截断",
+        "statusDialog": {
+            "title": "服务状态",
+            "description": "查看当前系统状态和连接信息"
+        },
+        "legend": "图例",
+        "nodeTypes": {
+            "person": "Person",
+            "category": "Category",
+            "geo": "Geographic",
+            "location": "Location",
+            "organization": "Organization",
+            "event": "Event",
+            "equipment": "Equipment",
+            "weapon": "Weapon",
+            "animal": "Animal",
+            "unknown": "Unknown",
+            "object": "Object",
+            "group": "Group",
+            "technology": "Technology",
+            "product": "Product",
+            "document": "Document",
+            "content": "Content",
+            "data": "Data",
+            "artifact": "Artifact",
+            "concept": "Concept",
+            "naturalobject": "Natural Object",
+            "method": "Method",
+            "creature": "Creature",
+            "plant": "Plant",
+            "disease": "Disease",
+            "drug": "Drug",
+            "food": "Food",
+            "other": "Other"
+        },
+        "sideBar": {
+            "settings": {
+                "settings": "设置",
+                "healthCheck": "健康检查",
+                "showPropertyPanel": "显示属性面板",
+                "showSearchBar": "显示搜索栏",
+                "showNodeLabel": "显示节点标签",
+                "nodeDraggable": "允许拖拽节点",
+                "showEdgeLabel": "显示边标签",
+                "hideUnselectedEdges": "隐藏未选中边",
+                "edgeEvents": "启用边事件",
+                "maxQueryDepth": "查询深度上限",
+                "maxNodes": "最大节点数",
+                "maxLayoutIterations": "布局迭代上限",
+                "resetToDefault": "恢复默认",
+                "edgeSizeRange": "边粗细范围",
+                "depth": "深度",
+                "max": "最大值",
+                "degree": "度数",
+                "apiKey": "API Key",
+                "enterYourAPIkey": "输入 API Key",
+                "save": "保存",
+                "refreshLayout": "刷新布局"
+            },
+            "zoomControl": {
+                "zoomIn": "放大",
+                "zoomOut": "缩小",
+                "resetZoom": "重置缩放",
+                "rotateCamera": "顺时针旋转",
+                "rotateCameraCounterClockwise": "逆时针旋转"
+            },
+            "layoutsControl": {
+                "startAnimation": "继续布局动画",
+                "stopAnimation": "停止布局动画",
+                "layoutGraph": "重新布局图谱",
+                "layouts": {
+                    "Circular": "Circular",
+                    "Circlepack": "Circlepack",
+                    "Random": "Random",
+                    "Noverlaps": "Noverlaps",
+                    "Force Directed": "Force Directed",
+                    "Force Atlas": "Force Atlas"
+                }
+            },
+            "fullScreenControl": {
+                "fullScreen": "全屏",
+                "windowed": "退出全屏"
+            },
+            "legendControl": {
+                "toggleLegend": "切换图例"
+            }
+        },
+        "statusIndicator": {
+            "connected": "已连接",
+            "disconnected": "未连接"
+        },
+        "statusCard": {
+            "unavailable": "Status information unavailable",
+            "serverInfo": "Server Info",
+            "workingDirectory": "Working Directory",
+            "inputDirectory": "Input Directory",
+            "maxParallelInsert": "Concurrent Doc Processing",
+            "summarySettings": "Summary Settings",
+            "llmConfig": "LLM Configuration",
+            "llmBinding": "LLM Binding",
+            "llmBindingHost": "LLM Endpoint",
+            "llmModel": "LLM Model",
+            "embeddingConfig": "Embedding Configuration",
+            "embeddingBinding": "Embedding Binding",
+            "embeddingBindingHost": "Embedding Endpoint",
+            "embeddingModel": "Embedding Model",
+            "storageConfig": "Storage Configuration",
+            "kvStorage": "KV Storage",
+            "docStatusStorage": "Doc Status Storage",
+            "graphStorage": "Graph Storage",
+            "vectorStorage": "Vector Storage",
+            "workspace": "Workspace",
+            "maxGraphNodes": "Max Graph Nodes",
+            "rerankerConfig": "Reranker Configuration",
+            "rerankerBindingHost": "Reranker Endpoint",
+            "rerankerModel": "Reranker Model",
+            "lockStatus": "Lock Status",
+            "threshold": "Threshold"
+        },
+        "propertiesView": {
+            "editProperty": "Edit {{property}}",
+            "editPropertyDescription": "Edit the property value in the text area below.",
+            "errors": {
+                "duplicateName": "Node name already exists",
+                "updateFailed": "Failed to update node",
+                "tryAgainLater": "Please try again later",
+                "updateSuccessButMergeFailed": "Properties updated, but merge failed: {{error}}",
+                "mergeFailed": "Merge failed: {{error}}"
+            },
+            "success": {
+                "entityUpdated": "Node updated successfully",
+                "relationUpdated": "Relation updated successfully",
+                "entityMerged": "Nodes merged successfully"
+            },
+            "mergeOptionLabel": "Automatically merge when a duplicate name is found",
+            "mergeOptionDescription": "If enabled, renaming to an existing name will merge this node into the existing one instead of failing.",
+            "mergeDialog": {
+                "title": "Node merged",
+                "description": "\"{{source}}\" has been merged into \"{{target}}\".",
+                "refreshHint": "Refresh the graph to load the latest structure.",
+                "keepCurrentStart": "Refresh and keep current start node",
+                "useMergedStart": "Refresh and use merged node",
+                "refreshing": "Refreshing graph..."
+            },
+            "node": {
+                "title": "Node",
+                "id": "ID",
+                "labels": "Labels",
+                "degree": "Degree",
+                "properties": "Properties",
+                "relationships": "Relations(within subgraph)",
+                "expandNode": "Expand Node",
+                "pruneNode": "Prune Node",
+                "deleteAllNodesError": "Refuse to delete all nodes in the graph",
+                "nodesRemoved": "{{count}} nodes removed, including orphan nodes",
+                "noNewNodes": "No expandable nodes found",
+                "propertyNames": {
+                    "description": "Description",
+                    "entity_id": "Name",
+                    "entity_type": "Type",
+                    "source_id": "C-ID",
+                    "Neighbour": "Neigh",
+                    "file_path": "File",
+                    "keywords": "Keys",
+                    "weight": "Weight"
+                }
+            },
+            "edge": {
+                "title": "Relationship",
+                "id": "ID",
+                "type": "Type",
+                "source": "Source",
+                "target": "Target",
+                "properties": "Properties"
+            }
+        },
+        "search": {
+            "placeholder": "页面内搜索节点...",
+            "message": "仅显示前 {{count}} 条结果"
+        },
+        "graphLabels": {
+            "selectTooltip": "选择标签",
+            "noLabels": "暂无标签",
+            "label": "标签",
+            "placeholder": "搜索或选择标签...",
+            "andOthers": "等",
+            "refreshGlobalTooltip": "刷新全量标签",
+            "refreshCurrentLabelTooltip": "刷新标签：{{label}}",
+            "refreshingTooltip": "刷新中..."
+        },
+        "emptyGraph": "暂无图谱数据",
+        "loading": "图谱加载中...",
+        "switchingTheme": "主题切换中..."
+    },
+    "retrievePanel": {
+        "chatMessage": {
+            "copyTooltip": "复制内容",
+            "copyError": "复制失败",
+            "copyEmpty": "没有可复制的内容",
+            "copySuccess": "复制成功",
+            "copySuccessLegacy": "复制成功（兼容方式）",
+            "copySuccessManual": "复制成功（手动方式）",
+            "copyFailed": "复制失败",
+            "copyManualInstruction": "请手动选择并复制文本",
+            "thinking": "思考中",
+            "thinkingTime": "耗时 {{time}} 秒",
+            "thinkingInProgress": "正在思考..."
+        },
+        "retrieval": {
+            "startPrompt": "请输入问题开始检索",
+            "clear": "清空",
+            "send": "发送",
+            "placeholder": "输入你的问题...",
+            "error": "检索失败",
+            "queryModeError": "查询模式校验失败：{{mode}}",
+            "queryModePrefixInvalid": "查询模式前缀无效"
+        },
+        "querySettings": {
+            "parametersTitle": "检索参数",
+            "parametersDescription": "调整检索和生成参数",
+            "queryMode": "查询模式",
+            "queryModeTooltip": "选择检索策略：Naive（向量检索）、Local（实体优先）、Global（关系优先）、Hybrid（本地+全局）、Mix（本地+全局+向量）、Bypass（跳过检索）",
+            "queryModeOptions": {
+                "naive": "朴素",
+                "local": "本地",
+                "global": "全局",
+                "hybrid": "混合",
+                "mix": "融合",
+                "bypass": "直连模型"
+            },
+            "responseFormat": "响应格式",
+            "responseFormatTooltip": "定义回答输出格式",
+            "responseFormatOptions": {
+                "multipleParagraphs": "多段文本",
+                "singleParagraph": "单段文本",
+                "bulletPoints": "要点列表"
+            },
+            "topK": "Top K",
+            "topKTooltip": "检索返回结果上限",
+            "topKPlaceholder": "请输入 Top K",
+            "chunkTopK": "Chunk Top K",
+            "chunkTopKTooltip": "分块检索返回上限",
+            "chunkTopKPlaceholder": "请输入 Chunk Top K",
+            "maxEntityTokens": "实体 Token 上限",
+            "maxEntityTokensTooltip": "实体上下文最大 Token 数",
+            "maxEntityTokensPlaceholder": "请输入实体 Token 上限",
+            "maxRelationTokens": "关系 Token 上限",
+            "maxRelationTokensTooltip": "关系上下文最大 Token 数",
+            "maxRelationTokensPlaceholder": "请输入关系 Token 上限",
+            "maxTotalTokens": "总 Token 上限",
+            "maxTotalTokensTooltip": "上下文总 Token 上限",
+            "maxTotalTokensPlaceholder": "请输入总 Token 上限",
+            "historyTurns": "历史轮次",
+            "historyTurnsTooltip": "参与上下文的历史对话轮数",
+            "historyTurnsPlaceholder": "请输入历史轮次",
+            "onlyNeedContext": "仅返回上下文",
+            "onlyNeedContextTooltip": "开启后仅返回检索上下文，不生成答案",
+            "onlyNeedPrompt": "仅返回提示词",
+            "onlyNeedPromptTooltip": "开启后仅返回构建好的提示词",
+            "streamResponse": "流式响应",
+            "streamResponseTooltip": "开启后逐步返回生成结果",
+            "userPrompt": "用户提示词",
+            "userPromptTooltip": "追加到系统提示词中的自定义内容",
+            "userPromptPlaceholder": "请输入你的自定义提示词",
+            "enableRerank": "启用重排",
+            "enableRerankTooltip": "对检索结果进行重排序，提升相关性",
+            "enableThinking": "思考模式",
+            "enableThinkingTooltip": "控制模型是否开启思考，默认关闭。"
+        }
+    },
+    "apiSite": {
+        "loading": "正在加载 API 文档..."
+    },
+    "apiKeyAlert": {
+        "title": "缺少 API Key",
+        "description": "当前请求需要 API Key，请先填写并保存。",
+        "placeholder": "请输入 API Key",
+        "save": "保存"
+    },
+    "pagination": {
+        "showing": "显示第 {{from}}-{{to}} 条，共 {{total}} 条",
+        "page": "页码",
+        "pageSize": "每页数量",
+        "firstPage": "第一页",
+        "prevPage": "上一页",
+        "nextPage": "下一页",
+        "lastPage": "最后一页"
+    }
+}
